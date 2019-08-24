@@ -1,0 +1,5 @@
+<service android:name="org.eclipse.paho.android.service.MqttService">
+            <intent-filter android:priority="1000">
+                <action android:name="org.eclipse.paho.android.service.MqttService"/>
+            </intent-filter>
+        </service>

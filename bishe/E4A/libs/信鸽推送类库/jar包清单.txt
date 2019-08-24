@@ -1,0 +1,5 @@
+android-support-v4.jar
+e4a_xg_base_receiver.jar
+mid-sdk-2.10.jar
+wup-1.0.0-SNAPSHOT.jar
+Xg_sdk_v2.36.jar

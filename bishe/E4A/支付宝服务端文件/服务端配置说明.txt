@@ -1,0 +1,7 @@
+服务端异步通知页面文件：myserver.php ，请在这个文件里面修改你的业务逻辑；
+
+支付宝配置文件：alipay.config.php ，请在这个文件里面修改你的商户ID；
+
+商户私钥文件：key/rsa_private_key.pem ，请替换成你自己的私钥文件；
+
+支付宝公钥文件：key/alipay_public_key.pem ，请替换成你自己的公钥文件；

@@ -1,0 +1,9 @@
+<activity android:name="com.pgyersdk.activity.FeedbackActivity"/>
+<meta-data
+        android:name="PGYER_APPID"
+        android:value="бя" >
+</meta-data>
+<provider
+            android:name="com.pgyersdk.PgyerProvider"
+            android:authorities="бЇ.com.pgyer.provider"
+            android:exported="false"/>

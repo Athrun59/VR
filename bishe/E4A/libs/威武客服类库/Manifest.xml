@@ -1,0 +1,30 @@
+
+        <activity
+            android:name="com.v5kf.client.ui.ClientChatActivity"
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:label="@string/v5_chat_title"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="com.v5kf.android.intent.notification10000"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+   
+        <service 
+            android:name="com.v5kf.client.lib.V5ClientService" >
+        </service>
+ 
+        <activity
+            android:name="com.v5kf.client.ui.WebViewActivity" >
+        </activity>
+
+        <activity
+            android:theme="@style/v5_transparent_activity"
+            android:name="com.v5kf.client.ui.ShowImageActivity" >
+        </activity>
+   
+        <meta-data android:value="бя" android:name="V5_SITE" />
+        
+        <meta-data android:value="бЇ" android:name="V5_ACCOUNT" />

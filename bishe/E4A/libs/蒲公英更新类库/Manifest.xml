@@ -1,0 +1,8 @@
+<activity android:name="com.pgyersdk.activity.FeedbackActivity" />
+<meta-data
+  
+  android:name="PGYER_APPID"
+ 
+  android:value="бя" >
+
+</meta-data>

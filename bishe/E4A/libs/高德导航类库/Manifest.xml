@@ -1,0 +1,5 @@
+        <activity
+            android:name="com.e4a.runtime.components.impl.android.高德导航类库.SimpleNaviActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>

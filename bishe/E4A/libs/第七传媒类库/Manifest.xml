@@ -1,0 +1,37 @@
+<activity
+            android:name="com.christmas.sdk.ui.ScoreWallActivity"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+
+        <service android:name="com.christmas.sdk.util.DetectionService" />
+
+        <activity
+            android:name="com.christmas.sdk.ui.ImgSubmit"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+
+        <!-- 无需改动 -->
+        <meta-data
+            android:name="BaiduMobAd_STAT_ID"
+            android:value="2c5ecfcea5" /> <!-- abcd1234 -->
+        <meta-data
+            android:name="BaiduMobAd_CHANNEL"
+            android:value="mobile8" />
+        <meta-data
+            android:name="BaiduMobAd_EXCEPTION_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="BaiduMobAd_SEND_STRATEGY"
+            android:value="APP_START" />
+        <meta-data
+            android:name="BaiduMobAd_ONLY_WIFI"
+            android:value="false" />
+        <meta-data
+            android:name="BaiduMobAd_CELL_LOCATION"
+            android:value="false" />
+        <meta-data
+            android:name="BaiduMobAd_GPS_LOCATION"
+            android:value="false" />
+        <meta-data
+            android:name="BaiduMobAd_WIFI_LOCATION"
+            android:value="false" />

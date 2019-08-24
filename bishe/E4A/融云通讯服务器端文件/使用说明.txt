@@ -1,0 +1,6 @@
+请将目录中的这两个php文件放置到您的服务器上，并在RongYun.php文件中第5行处修改为您自己的APP KEY 和 APP SECRET，
+
+在E4A代码中，融云通讯1.置服务端地址()的参数填写RongYun.php的完整路径即可，例如：融云通讯1.置服务器端地址("http://bbs.e4asoft.com/welcome/RongYun.php")。
+
+检查RongYun.php文件设置成功方法：在电脑浏览器中输入你的RongYun.php文件地址，例如：http://bbs.e4asoft.com/welcome/RongYun.php ，如果浏览器页面输出“Error”字符，说明已经配置成功，否则请检查你的RongYun.php文件在服务器上的路径是否正确，外部是否有访问的权限。
+

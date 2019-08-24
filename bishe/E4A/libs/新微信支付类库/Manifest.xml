@@ -1,0 +1,13 @@
+
+
+<activity
+            android:name="com.e4a.runtime.components.impl.android.新微信支付类库.WXPayEntryActivity"
+            android:theme="@android:style/Theme.Translucent"
+            android:launchMode="singleTop" />
+
+        <activity-alias
+            android:name=".wxapi.WXPayEntryActivity"
+            android:theme="@android:style/Theme.Translucent"
+            android:exported="true"
+            android:targetActivity="com.e4a.runtime.components.impl.android.新微信支付类库.WXPayEntryActivity" />
+
