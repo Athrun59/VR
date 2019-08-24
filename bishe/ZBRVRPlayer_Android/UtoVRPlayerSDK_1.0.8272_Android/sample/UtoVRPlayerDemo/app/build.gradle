@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "28.0.3"
+    defaultConfig {
+        applicationId "com.utovr.playerdemo"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+    task nativeLibsToJar(type: Zip, description: "create a jar archive of the native libs") {
+        destinationDir file("$projectDir/libs")
+        baseName "Native_Libs2"
+        extension "jar"
+        from fileTree(dir: "libs", include: "**/*.so")
+        into "lib"
+    }
+    tasks.withType(JavaCompile) {
+        compileTask -> compileTask.dependsOn(nativeLibsToJar)
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            //pseudoLocalesEnabled true
+            //proguardFile 'proguard-rules.pro'
+            //zipAlignEnabled true
+        }
+    }
+}
+allprojects{
+    repositories{
+        jcenter()
+        maven {url"https://maven.google.com"}
+    }
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.13-beta-3'
+    compile 'com.android.support:appcompat-v7:26.+'
+}

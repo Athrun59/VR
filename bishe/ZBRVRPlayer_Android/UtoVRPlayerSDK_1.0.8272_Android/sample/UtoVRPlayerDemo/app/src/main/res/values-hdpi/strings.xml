@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">郑宝仁的演示</string>
+    <string name="play_with_activity">小屏播放</string>
+    <string name="play_with_fragment">大屏播放</string>
+</resources>
