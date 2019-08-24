@@ -1,0 +1,42 @@
+[
+  {
+    "Id": "1142159",
+    "ThreadId": "477959",
+    "Html": "I would like to make passive stereoscopic large scale projection by using dual projectors with tracker of Mouse or Leap Motion.\r<br />\nDual screen mode at Device/Layout is grey out however at present. Informing of the condition how to activate this device mode will be much appreciated. Thank you in advance.\r<br />\n<br />\nKatsuhiko Inoue<br />\n",
+    "PostedDate": "2013-12-25T03:40:31.177-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1142209",
+    "ThreadId": "477959",
+    "Html": "Hello Katsuhiko,\r<br />\n<br />\nThe dual screen option is supposed to be available when windows detect more than one monitor. You will have to be in extended desktop mode (not mirror) or else windows will detect only one monitor. Also, you may have to restart the vrplayer if a monitor is plugged during the application is running. I tested this morning on my tv to make sure I did not break this feature in the 0.5 version release and it was working fine. If you have any trouble please let me know.\r<br />\n<br />\nMerry christmas!\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2013-12-25T11:18:52.91-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1142232",
+    "ThreadId": "477959",
+    "Html": "Hi Stephane\r<br />\n<br />\nI could also confirm the dual screen mode works fine today.  However I found some peculiar behavior that the VR Player menu switch to the secondary monitor. I will try to experiment large scale 3D passive projection with dual projectors later. \r<br />\n<br />\nThe other thing I found in the large screen display is more distortion of sample pattern with sphere projection at the area nearer to the nadir and zenith, which is same as for the real 360x180 panoramas. Informing of how to reduce such distortion at high magnification will be much appreciated.\r<br />\n<br />\nMerry Christmas.\r<br />\n<br />\nKatsuhiko<br />\n",
+    "PostedDate": "2013-12-25T15:29:15.143-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1145126",
+    "ThreadId": "477959",
+    "Html": "Hi Katsuhiko,\r<br />\n<br />\nUnfortunately, I don't know how you could reduce the distortion with the current implementation but I am aware there is a flaw in the distortion rendering.\r<br />\nWith the oculus rift, it's hardly noticeable but on TVs with panoramic aspect ratios, it will definitely put that in evidence. \r<br />\nIn a future release, I am planning to use a different distortion for each eye to fix the problem but this will involved major changes in the back end so I don't know when it will be ready.\r<br />\n<br />\nSorry for the inconvenience,\r<br />\nBest regards,\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2014-01-03T09:42:45.077-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1146769",
+    "ThreadId": "477959",
+    "Html": "Hi Stephane\r<br />\n<br />\nThank you for your kind response about distortion.\r<br />\nI look forward to the improvement in the future.\r<br />\nAs for the 3D panorama photos I could publish by using HTML5 web technology.\r<br />\n<a href=\"http://v-galleries.com/images/140101-Yuduruha/rift.html\" rel=\"nofollow\">http://v-galleries.com/images/140101-Yuduruha/rift.html</a>\r<br />\n<a href=\"http://v-galleries.com/images/140101-Yuduruha/sbs3d.html\" rel=\"nofollow\">http://v-galleries.com/images/140101-Yuduruha/sbs3d.html</a>\r<br />\n<br />\nI look forward to the playlist function of VR Player near future.\r<br />\n<br />\nBest regards,\r<br />\nKatsuhiko Inoue<br />\n",
+    "PostedDate": "2014-01-03T18:36:53.867-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

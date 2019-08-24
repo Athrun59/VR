@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1197770",
+    "ThreadId": "526467",
+    "Html": "Stephane, currently your samples for VR Player are photos of a flower (depthmap plane), hallway (OU cylinder view) and a city street (OU spherical). On recent threads in the Oculus VR forums there's been posts using 3D rendered scenes using <a href=\"https://developer.oculusvr.com/forums/viewtopic.php?f=33&amp;t=4613#p84519\" rel=\"nofollow\">spherical projection</a> and <a href=\"https://developer.oculusvr.com/forums/viewtopic.php?f=33&amp;t=3465\" rel=\"nofollow\">depth map</a>. I posted the image for the S3D spherical image on the Oculus sub-reddit as well which seems to be well liked.\r<br />\n<br />\nMy thinking is this: The creators of these images render a 3D scene that helps demonstrates an object of the same size at various heights and distances in a simple landscape. They then generate images based on this render which will be Monoview Plane, Cube, Spherical and Cylinder. They also generate an Over/Under image of those and a Depth Map. You then use these images as the default samples in the VR Player menu.\r<br />\n<br />\nI think such a change would better demonstrate the formats that VR Player can offer. It wasn't until I saw a Depth Map image using a 3D landscape spherical projection that I appreciated how useful that special effect can be for 3D viewing. Plus, rendered scenes are easier to demonstrate the 3D effect since photos must depend up high quality camera and stitching tech.<br />\n",
+    "PostedDate": "2014-01-25T20:34:35.31-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1202586",
+    "ThreadId": "526467",
+    "Html": "Hey Nukemarine,\r<br />\n<br />\nYou are right, I should update the samples. Some of them are a little bit outdated.\r<br />\nI was thinking about removing them because there is more content on <a href=\"http://vrplayer.tv\" rel=\"nofollow\">http://vrplayer.tv</a> and it's always updated by the community.\r<br />\nFinally, I changed my mind so I will include at least one of each projection type as quick start guide.\r<br />\nIf you have good recommendations, let me know.\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2014-02-04T09:43:49.317-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

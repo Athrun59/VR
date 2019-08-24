@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1224079",
+    "ThreadId": "539390",
+    "Html": "Correct-me if I'm wrong, but it looks like there's no way to play a steroscopic video which images are side-by-side with the left image displayed at the right.\r<br />\n<br />\nDon't you think this should be a feature, as some 3D video providers delivers content this way?<br />\n",
+    "PostedDate": "2014-03-18T10:42:34.74-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1228332",
+    "ThreadId": "539390",
+    "Html": "Hi Chimyx,\r<br />\n<br />\nIt's not ideal from a UX perspective but you can use the menu Device-&gt;Layout-&gt;Cross-eyed and then, use a negative value for Tools-&gt;Settings-&gt;Display-&gt;Horizontal Offset. (Simply add a minus sing in the textbox to invert the horizontal offset)\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2014-03-30T08:09:49.207-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

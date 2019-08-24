@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1465075",
+    "ThreadId": "651915",
+    "Html": "Hello,\r<br />\n<br />\nI have somewhat exotic HMD from German company called Trivisio. They use Colibri tracker (orientation: X, Y, Z). It's not supported, but I have VRPN server for the tracker. And VR Player\r<br />\nhas a VRPN Support! That's great, but it doesn't seem to work.  Is it designed for this kind \r<br />\nof tracker at all ? Or it's only for a knob with a button ?\r<br />\n<br />\nMuch thanks!\r<br />\nM.<br />\n",
+    "PostedDate": "2016-02-29T17:52:53.107-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

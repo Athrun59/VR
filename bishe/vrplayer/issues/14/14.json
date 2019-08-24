@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 2,
+    "Custom": null,
+    "Description": "Have tried playing various video streams including mjpg, MP4 (streamed from the vrplayer.tv site) and youtube clips, none seem to initialize. All work fine on VRPlayer PC, VLC PC and VLC Android.\r\n\r\nNo problems with other video playback\r\n\r\nBelow links didn't work (other links were on private servers):\r\nhttp://vrplayer.tv/wp-content/uploads/2014/04/Vortex_VR_3D.mp4\r\nhttps://www.youtube.com/watch?v=yoF9vcFbo_4",
+    "LastUpdatedDate": "2015-06-29T00:56:54.773-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "vrplayer",
+    "ReportedDate": "2014-08-12T11:34:44.417-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "VRPlayer Android: Video streams aren't working",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 2,
+    "Id": 14
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Update: The above links will work if a phone has some sort of cellular connection but will not work with wifi only.\n\nmjpg streams still do not function",
+      "PostedDate": "2014-08-12T13:14:54.06-07:00",
+      "Id": 155266
+    },
+    {
+      "Message": "Youtube url are not working for me on android VR player version. Do you write them in any particular way?",
+      "PostedDate": "2014-10-13T13:27:45.613-07:00",
+      "Id": 162193
+    }
+  ]
+}

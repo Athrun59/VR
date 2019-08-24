@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1422080",
+    "ThreadId": "636197",
+    "Html": "Is there some specification that describes how to provide 3d audio data to VR player?\r<br />\nI'm working on a VR video project that is targeting android as the platform using VR Player as the, well, player.  We're using Autopano to stitch together the video, which is fine, but it only supports a single audio file.\r<br />\n<br />\nWe have multiple audio sources that move during the production, actors talking.  We can assume that they're all on the same plane, and that they emit the sound radially, but we'd like to have the viewer's head orientation change what they hear, and to have the actors sound like they are properly positioned.\r<br />\n<br />\nIs there some other tool that will let us output this audio in a way that VR Player can use, or a spec so we can write custom code somehow?\r<br />\n<br />\nThanks for any insight y'all can provide,<br />\n<ul>\n<li>alex</li>\n</ul>\n",
+    "PostedDate": "2015-05-01T18:43:47.27-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

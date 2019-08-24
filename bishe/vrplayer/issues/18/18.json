@@ -1,0 +1,51 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 1,
+    "Custom": null,
+    "Description": "Hello, \r\n\r\n\r\nAfter freshly installing VR Player on a new machine and all I'm getting is a black screen as seen in the attached screenshot. I couldn't open the samples or anything else at first but upon uninstalling VLC, reinstalling the latest version and then reinstalling VR Player I was then able to open videos.\r\n\r\nFor some reason I still can't open the samples, and have no idea what would cause this. It's not a major issue, as this is on a business machine and not a regular Rift capable machine, but I still wanted to post about it in case anyone has any advice.\r\n\r\n\r\n",
+    "LastUpdatedDate": "2014-10-20T02:37:00.397-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "vrplayer",
+    "ReportedDate": "2014-10-11T14:46:08.39-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "VR Player Windows Black Screen",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 2,
+    "Id": 18
+  },
+  "FileAttachments": [
+    {
+      "FileId": 920101,
+      "FileName": "Black VRPlayer.PNG",
+      "DownloadUrl": ".\\920101"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Blank Screen when opening VR Player",
+      "PostedDate": "2014-10-11T14:47:45.703-07:00",
+      "Id": 162071
+    }
+  ]
+}

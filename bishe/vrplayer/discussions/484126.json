@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "1151133",
+    "ThreadId": "484126",
+    "Html": "I'd like to see better in Oculus file browser and player controls while viewing.\r<br />\nIt's a pain to take off the rift to load another file.\r<br />\nIs there a way to load multiple files or a playlist?\r<br />\n<br />\nThanks much,\r<br />\n<br />\nThis product is awesome!<br />\n",
+    "PostedDate": "2014-01-08T16:13:05.263-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1161833",
+    "ThreadId": "484126",
+    "Html": "Totally agree,\r<br />\n<br />\nOne of the biggest feature request! A UI/UX adapted to the rift is definitely on the road map!\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2014-01-13T09:58:43.5-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1202644",
+    "ThreadId": "484126",
+    "Html": "+1 to this :)\r<br />\n<br />\na playlist would be great to be able to cycle through images and compare for quality comparing and overall R&amp;D testing<br />\n",
+    "PostedDate": "2014-02-04T12:16:11.967-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1202680",
+    "ThreadId": "484126",
+    "Html": "The playlist feature is in the backlog. In the meanwhile, I think you can open a m3u playlist with vlc and use next/previous shortcuts (see in config) to navigate.\r<br />\nNot 100% sure its still working in 0.5.x but it was working in 0.4.x\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2014-02-04T13:58:52.487-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1202735",
+    "ThreadId": "484126",
+    "Html": "Stephane,\r<br />\n<br />\nYeah you told me about using m3u playlists before :)\r<br />\nI have tried it in previous versions but I found the navigating to be 'sticky', where sometimes it wouldn't progress to the next image unless you held down the button and did a prayer. So I've always just opened images one at a time and had the viewer take off the headset while switching. This also helps with keeping them from getting motion sick :)<br />\n",
+    "PostedDate": "2014-02-04T18:52:47.66-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1202743",
+    "ThreadId": "484126",
+    "Html": "Sorry about that, I answered quickly on my mobile phone and forgot that I already told you.\r<br />\nAnyhow, it's good to know! It was an alternative until the playlist feature implementation but if it's not working well, I won't recommend this method anymore.\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2014-02-04T19:12:12.913-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

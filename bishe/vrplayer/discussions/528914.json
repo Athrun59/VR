@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "1202648",
+    "ThreadId": "528914",
+    "Html": "Is there a way to save settings with a particular image/video? I see the option to load presets from metadata but I don't know how to get those presets included within the particular file...\r<br />\n<br />\notherwise I love the overall ability to save settings - makes it so much easier to setup VR Player for certain sets of images.\r<br />\n<br />\nps: the head-neck model is great!<br />\n",
+    "PostedDate": "2014-02-04T12:26:01.043-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1202683",
+    "ThreadId": "528914",
+    "Html": "I will update the documentation with the instructions as soon as possible.\r<br />\nIn short, you'll need to use a plugin for adobe softwares (available in the source code)\r<br />\n<br />\nYou can also name a preset file with the same media file name and replace extension by .json.\r<br />\nVrplayer search for presets in the same folder when opening a picture or a video file.\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2014-02-04T14:10:59.987-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1202733",
+    "ThreadId": "528914",
+    "Html": "that makes sense - so after calibrating the settings - just save the preset with the same name as the file you were calibrating for\r<br />\nsweet thanks<br />\n",
+    "PostedDate": "2014-02-04T18:48:36.097-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1202740",
+    "ThreadId": "528914",
+    "Html": "No problem and here's the link for the documentation about XMP meta data: <a href=\"https://vrplayer.codeplex.com/wikipage?title=Content%20creators%20Guide\" rel=\"nofollow\">Content creators guide</a>\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2014-02-04T19:04:40.027-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

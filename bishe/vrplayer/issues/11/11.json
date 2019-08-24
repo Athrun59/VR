@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 2,
+    "Custom": null,
+    "Description": "Hi everbody \r\n\r\nI´m not a big PC and english crack but hope you can help me........\r\nI´ve recovered my layptop back to beginning and installed vr player fresh and the k lite mega code pack\r\nbut now vr player crashes after watching a video some seconds..... before the recovery everthing works fine -.- so anybody know what to do??? tried diffrent player versions but nothing helps\r\n\r\nbest regards Disaster",
+    "LastUpdatedDate": "2014-07-31T11:15:40.683-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "vrplayer",
+    "ReportedDate": "2014-07-31T10:56:16.17-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "crash after a few seconds while watching",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 11
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "   VrPlayer.exe \n   0.1.0.0 \n   52080562 \n   KERNELBASE.dll \n   6.2.9200.16384 \n   5010ac2f \n   e0434352 \n   00014b32 \n   12b0 \n   01cfacea7d0ecdef \n   C:\\Program Files (x86)\\VR Player\\VrPlayer.exe \n   C:\\Windows\\SYSTEM32\\KERNELBASE.dll \n   ee80abc2-18dd-11e4-be72-b888e3caefa5 \n    \n    \n- <Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n- <System>\n  <Provider Name=\"Application Error\" /> \n  <EventID Qualifiers=\"0\">1000</EventID> \n  <Level>2</Level> \n  <Task>100</Task> \n  <Keywords>0x80000000000000</Keywords> \n  <TimeCreated SystemTime=\"2014-07-31T18:10:20.000000000Z\" /> \n  <EventRecordID>1072</EventRecordID> \n  <Channel>Application</Channel> \n  <Computer>Patze</Computer> \n  <Security /> \n  </System>\n- <EventData>\n  <Data>VrPlayer.exe</Data> \n  <Data>0.1.0.0</Data> \n  <Data>52080562</Data> \n  <Data>KERNELBASE.dll</Data> \n  <Data>6.2.9200.16384</Data> \n  <Data>5010ac2f</Data> \n  <Data>e0434352</Data> \n  <Data>00014b32</Data> \n  <Data>12b0</Data> \n  <Data>01cfacea7d0ecdef</Data> \n  <Data>C:\\Program Files (x86)\\VR Player\\VrPlayer.exe</Data> \n  <Data>C:\\Windows\\SYSTEM32\\KERNELBASE.dll</Data> \n  <Data>ee80abc2-18dd-11e4-be72-b888e3caefa5</Data> \n  <Data /> \n  <Data /> \n  </EventData>\n  </Event>\n\n\n\n2014-07-31 19:35:11,284 [1] ERROR [(null)] - Error while loading media preset.\nSystem.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.\n   bei VrPlayer.Models.Presets.PresetsManager.LoadMediaSettings(JObject o)\n2014-07-31 19:35:11,347 [1] ERROR [(null)] - Error while loading device preset.\nSystem.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.\n   bei VrPlayer.Models.Presets.PresetsManager.LoadDeviceSettings(JObject o)\n2014-07-31 19:36:37,297 [1] ERROR [(null)] - Error while loading configs settings.\nSystem.FormatException: Die Zeichenfolge wurde nicht als gültiger Boolean erkannt.\n   bei System.Boolean.Parse(String value)\n   bei VrPlayer.Models.Settings.SettingsManager.LoadConfigsSettings()\n2014-07-31 19:36:37,536 [1] ERROR [(null)] - Error while loading media preset.\nSystem.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.\n   bei VrPlayer.Models.Presets.PresetsManager.LoadMediaSettings(JObject o)\n2014-07-31 19:36:37,537 [1] ERROR [(null)] - Error while loading device preset.\nSystem.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.\n   bei VrPlayer.Models.Presets.PresetsManager.LoadDeviceSettings(JObject o)\n2014-07-31 19:40:50,187 [1] ERROR [(null)] - Error while loading configs settings.\nSystem.FormatException: Die Zeichenfolge wurde nicht als gültiger Boolean erkannt.\n   bei System.Boolean.Parse(String value)\n   bei VrPlayer.Models.Settings.SettingsManager.LoadConfigsSettings()\n2014-07-31 19:40:50,269 [1] ERROR [(null)] - Error while loading media preset.\nSystem.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.\n   bei VrPlayer.Models.Presets.PresetsManager.LoadMediaSettings(JObject o)\n2014-07-31 19:40:50,271 [1] ERROR [(null)] - Error while loading device preset.\nSystem.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.\n   bei VrPlayer.Models.Presets.PresetsManager.LoadDeviceSettings(JObject o)\n",
+      "PostedDate": "2014-07-31T11:14:42.963-07:00",
+      "Id": 154093
+    },
+    {
+      "Message": "hope this helps THX!",
+      "PostedDate": "2014-07-31T11:15:40.683-07:00",
+      "Id": 154094
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When you switch from the beta DK2 tracker to the mouse tracker VR Player for windows will crash throwing the below exception.\r\n\r\nApplication: VrPlayer.exe\r\nFramework Version: v4.0.30319\r\nDescription: The process was terminated due to an unhandled exception.\r\nException Info: System.NullReferenceException\r\nStack:\r\n   at VrPlayer.Trackers.OculusRiftDK2Tracker.OculusRiftDK2Tracker.Unload()\r\n   at VrPlayer.Contracts.PluginBase`1[[System.__Canon, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].Unload()\r\n   at VrPlayer.Models.State.DefaultApplicationState.OnTrackerPluginChanged(System.Windows.DependencyObject, System.Windows.DependencyPropertyChangedEventArgs)\r\n   at System.Windows.DependencyObject.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)\r\n   at System.Windows.DependencyObject.NotifyPropertyChange(System.Windows.DependencyPropertyChangedEventArgs)\r\n   at System.Windows.DependencyObject.UpdateEffectiveValue(System.Windows.EntryIndex, System.Windows.DependencyProperty, System.Windows.PropertyMetadata, System.Windows.EffectiveValueEntry, System.Windows.EffectiveValueEntry ByRef, Boolean, Boolean, System.Windows.OperationType)\r\n   at System.Windows.DependencyObject.SetValueCommon(System.Windows.DependencyProperty, System.Object, System.Windows.PropertyMetadata, Boolean, Boolean, System.Windows.OperationType, Boolean)\r\n   at System.Windows.DependencyObject.SetValue(System.Windows.DependencyProperty, System.Object)\r\n   at VrPlayer.Models.State.DefaultApplicationState.set_TrackerPlugin(VrPlayer.Contracts.IPlugin`1<VrPlayer.Contracts.Trackers.ITracker>)\r\n   at VrPlayer.ViewModels.MenuViewModel.SetTracker(System.Object)\r\n   at VrPlayer.Helpers.Mvvm.DelegateCommand.Execute(System.Object)\r\n   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(System.Windows.Input.ICommandSource, Boolean)\r\n   at System.Windows.Controls.MenuItem.InvokeClickAfterRender(System.Object)\r\n   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(System.Delegate, System.Object, Int32)\r\n   at MS.Internal.Threading.ExceptionFilterHelper.TryCatchWhen(System.Object, System.Delegate, System.Object, Int32, System.Delegate)\r\n   at System.Windows.Threading.DispatcherOperation.InvokeImpl()\r\n   at System.Windows.Threading.DispatcherOperation.InvokeInSecurityContext(System.Object)\r\n   at System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)\r\n   at System.Threading.ExecutionContext.Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)\r\n   at System.Threading.ExecutionContext.Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)\r\n   at System.Windows.Threading.DispatcherOperation.Invoke()\r\n   at System.Windows.Threading.Dispatcher.ProcessQueue()\r\n   at System.Windows.Threading.Dispatcher.WndProcHook(IntPtr, Int32, IntPtr, IntPtr, Boolean ByRef)\r\n   at MS.Win32.HwndWrapper.WndProc(IntPtr, Int32, IntPtr, IntPtr, Boolean ByRef)\r\n   at MS.Win32.HwndSubclass.DispatcherCallbackOperation(System.Object)\r\n   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(System.Delegate, System.Object, Int32)\r\n   at MS.Internal.Threading.ExceptionFilterHelper.TryCatchWhen(System.Object, System.Delegate, System.Object, Int32, System.Delegate)\r\n   at System.Windows.Threading.Dispatcher.LegacyInvokeImpl(System.Windows.Threading.DispatcherPriority, System.TimeSpan, System.Delegate, System.Object, Int32)\r\n   at MS.Win32.HwndSubclass.SubclassWndProc(IntPtr, Int32, IntPtr, IntPtr)\r\n   at MS.Win32.UnsafeNativeMethods.DispatchMessage(System.Windows.Interop.MSG ByRef)\r\n   at System.Windows.Threading.Dispatcher.PushFrameImpl(System.Windows.Threading.DispatcherFrame)\r\n   at System.Windows.Threading.Dispatcher.PushFrame(System.Windows.Threading.DispatcherFrame)\r\n   at System.Windows.Threading.Dispatcher.Run()\r\n   at System.Windows.Application.RunDispatcher(System.Object)\r\n   at System.Windows.Application.RunInternal(System.Windows.Window)\r\n   at System.Windows.Application.Run(System.Windows.Window)\r\n   at VrPlayer.App.Main()\r\n",
+    "LastUpdatedDate": "2014-10-11T15:15:36.76-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "vrplayer",
+    "ReportedDate": "2014-10-11T15:15:36.76-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "DK2 NullReferenceException On Windows",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 19
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

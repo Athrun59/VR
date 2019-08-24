@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Is there a Forum where Problems can be ADDRESSED? I have never seen anyone actually Respond to  Problem Here, so this must be a .. I don't know what , but not the place to get help.  VR Player Android cannot play Video Files that VLC Player has no Problem With!  I have yet to view a Single Downloaded Mp4 in VR Player.  It usually plays the Audio, but the Video is Black Screen.\r\n\r\nWhere can I find out ANYTHING about the problems with VR PLayer?  This 'ISSUES' page never gets any responses from the company that makes it!  SOOOOO. Where to go?\r\n\r\nTHANKS!",
+    "LastUpdatedDate": "2015-05-09T21:14:23.117-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "vrplayer",
+    "ReportedDate": "2015-05-09T21:14:23.117-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Is there a Forum where Problems can be ADDRESSED?",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 22
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

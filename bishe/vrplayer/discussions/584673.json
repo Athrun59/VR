@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1360088",
+    "ThreadId": "584673",
+    "Html": "Hi,\r<br />\n<br />\nIs there any way to embed the VR Player settings JSON in 3D 360 MPEG videos, so that all params such as over-under and projection would be initialized automatically.\r<br />\n<br />\nThanks,\r<br />\nAnton.<br />\n",
+    "PostedDate": "2015-03-05T06:29:30.167-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1360098",
+    "ThreadId": "584673",
+    "Html": "Sorry for the double post - I found an answer here:<br />\n<a href=\"https://vrplayer.codeplex.com/wikipage?title=Content%20creators%20Guide\" rel=\"nofollow\">https://vrplayer.codeplex.com/wikipage?title=Content%20creators%20Guide</a><br />\n",
+    "PostedDate": "2015-03-05T06:48:51.68-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

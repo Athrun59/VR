@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 1,
+    "Custom": null,
+    "Description": "a small nit pick, but it would be great if VR Player remembered what file type you opened before and kept that setting. I only work with still images so I'm constantly having to change the file type from movies to images. Or maybe both could be combined?",
+    "LastUpdatedDate": "2014-02-04T18:32:27.927-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "vrplayer",
+    "ReportedDate": "2014-02-04T12:11:51.773-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "remembering previous open file types",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 9
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Good idea, it's now in the back log!\n\nSince 0.5.1, thanks to a contributor (Christophe Leske), you can also drag and drop files in the player. It works for images and videos.\n\n-Stephane",
+      "PostedDate": "2014-02-04T18:32:27.927-08:00",
+      "Id": 132588
+    }
+  ]
+}

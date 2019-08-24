@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Fixed in 0.1.6.1",
+    "ClosedDate": "2013-04-26T20:42:09.893-07:00",
+    "CommentCount": 1,
+    "Custom": null,
+    "Description": "the file open dialog is programmed to only show jpeg files with the .jpg extension. it wont show files with .jpeg extension.",
+    "LastUpdatedDate": "2013-04-26T20:42:09.893-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "vrplayer",
+    "ReportedDate": "2013-04-19T16:33:21.733-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "cant open .jpeg files",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 3
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I added the .jpeg extension. It will be in the next release. Until then, you can set the filter to \"All Files\" and it should work.\n\nThank you again for your feedback.",
+      "PostedDate": "2013-04-26T09:38:20.547-07:00",
+      "Id": 98599
+    }
+  ]
+}

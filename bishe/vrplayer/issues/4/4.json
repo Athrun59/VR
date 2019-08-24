@@ -1,0 +1,75 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Installing K-Lite codec fixed the problem",
+    "ClosedDate": "2013-12-21T12:52:52.2-08:00",
+    "CommentCount": 7,
+    "Custom": null,
+    "Description": "My note PC to which Oculus Rift is connected can not play mp4 VR files with VRPlayer (black screen) while another desktop PC (both 64bit Windows 7 with same klite codec pack installed) can play same files. What should I check? Thanks in advance.",
+    "LastUpdatedDate": "2013-12-21T12:52:52.2-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "vrplayer",
+    "ReportedDate": "2013-08-03T01:35:29.857-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "mp4 vr files can not be played.",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 4
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi inouek3d,\n\nI uploaded a new version of VR Player (0.4.1.0). \n\nOlder version of VR Player was using direct show which rely on installed codec. K-Lite is a nice codec pack and works most of the time but some times it requires to modify advance settings. \n\nYou should now be able to use mp4 files via VLC. It's much simpler because all dependencies are included. \n\nRegards,\n\n-Stephane",
+      "PostedDate": "2013-08-11T19:11:24.56-07:00",
+      "Id": 109372
+    },
+    {
+      "Message": "Hi Stephane Thank you for the response.\n\nI tried v.0.4.1.0 and found mp4 files still can not be opened with Direct Show, but can be opened with VLC. \nI appreciate your effort to the VRPlayer very much. Good luck to your project.\n\nBTW I am still not clear what is the reaction of VRPlayer for input VR files of which the horizontal and vertical degrees is less than 360 deg. and 180 deg. \nIs there any guidance for the input file aspect ratio? \n\nThank you in advance.  \ninouek3d",
+      "PostedDate": "2013-08-12T00:52:35.653-07:00",
+      "Id": 109393
+    },
+    {
+      "Message": "Hi inouek3d,\n\nFor files with less than 360 and 180 deg, try the dome projection in version > 0.4.\nIn the plugins window, you will be able to control both angles (units are in % ranging from 0 to 1.0).\n\n-Stephane",
+      "PostedDate": "2013-08-14T21:41:43.053-07:00",
+      "Id": 109979
+    },
+    {
+      "Message": "Hi Stephane Thank you for the response.\n\nFor panorama with vertical range less than 180 deg, Cylinder Projection is better. I could understand the meaning of the parameters and I can project as I would like now. \nAs for the origin of the horizontal axis I think the center of the horizontal span is much better as most panorama contents is produced so even in case of less than 360 deg.\nI still can not understand the exact  meaning of geometry scale and resolution etc. Is there the manual of VRPlayer?\nThank you very much for your great work.\n\nP.S. I added 360 90 3D panorama photos shot on twin GH2 with Samyang 7.5 mm fish eye.\nhttps://www.facebook.com/katsuhiko.inoue.92\nhttp://v-galleries.com/images/3DPanorama_at_Kobe_HarborLand(TwinGH2+Samyang7.5mm)/",
+      "PostedDate": "2013-08-16T19:25:25.883-07:00",
+      "Id": 110219
+    },
+    {
+      "Message": "Hello inouek3d,\n\nTo move the horizontal axis, of the panoramas, you can move the camera up or down by using the \"page up\" and \"page down\" keys.\n\nCurrently there is no documentation because VR Player is still alpha and I expect to change lot of things but if you have questions I will be glad to answer.\n\nFor the meaning of geometry scale and resolution here's a short explanation. Geometry is the term I use to identify a group of parameters that are influencing the structure of the projection. Resolution parameters defined the number of polygons. By increasing the resolution, projections like sphere, dome and cylinder will be smoother but performances will be slower. Scale parameter is used to modify the height of the cylinder projection but honestly, I don't like the name and it will be renamed in a future version.\n\nI hope this is helpful and any feedback is welcome.\n\n-Stephane\n\n \n",
+      "PostedDate": "2013-08-17T22:26:58.527-07:00",
+      "Id": 110257
+    },
+    {
+      "Message": "Hi Stephane I appreciate your response.\n\nI will try the moving function of the horizontal axis later.\nEveryone looks forward to the manual in the future.\nI posted how to view my GoPro3 3D video (16:9) with VRPlayer on Oculus Rift to my Facebook page.\nhttps://www.facebook.com/katsuhiko.inoue.92\nIsn't there any misunderstandings there? I look forward to your comment.\n\nKatsuhiko Inoue\n\nP.S. I will attend ISU Congress being held in Ljubljana, Slovenia this week. I am sure many attendants will be interested in your VR player ! I will bring my Oculus there.",
+      "PostedDate": "2013-08-18T04:21:55.393-07:00",
+      "Id": 110263
+    },
+    {
+      "Message": "Hello inouek3d,\n\nI checked the parameters for the gopro 3 on your facebook page and everything looks good except the distortion. I think it will work but usually, the oculus rift use a barrel distortion to compensate the optics.\n\nI am currently working on a feature for saving and loading presets file.\nThis will simplify parameters sharing and users will not have to set every parameters one by one.\n\nI will try to follow the ISU Congress. Please let me know how it goes!\n\n-Stephane",
+      "PostedDate": "2013-08-21T00:33:33.937-07:00",
+      "Id": 110567
+    }
+  ]
+}

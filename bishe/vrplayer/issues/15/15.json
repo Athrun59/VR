@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I purchased (and subsequently had refunded) the Android VR Player because it didn't do what I thought it did. However, the idea of VR Player is broadly consistent with what I thought it did, so I wanted to describe what I was _hoping_ it did, just in case you think the ideas are good.\r\n\r\nBasically, I wanted to watch a movie (mp4) which was in SBS format, using Google Cardboard and a Nexus 5. The problems I was having were:\r\n1. The lenses lead to a pincushion effect on the image I am watching\r\n2. I can't see the very edged of the screen (or the bottom) so I miss parts of the film. This can be reduced by using FOV movement, but drift becomes a problem\r\n3. Some parts of the movie have subtitles. Although I can just use MXPlayer for the SBS video, it doesn't work very well for producing SBS subtitles.\r\n\r\nWhat I was _hoping_ VR Player did was:\r\n1. Allow me to choose a projection that would reverse the pin-cushion effect\r\n2. Allow me to scale the video a bit so I could see the whole thing\r\n3. Display subtitles matching for each eye so they were readable, and in the field of view.\r\nI understand these are a big ask, but there is also nothing out there that does it, and particularly the 'projection' stuff seems reasonably consistent with what the app actually does.\r\n\r\nFinally, the 'ideal experience' that would have made me think that VR Player was exactly what I wanted:\r\n1. Display a box containing a grid on the screen for each eye, and allow (a) the pincushion to be adjusted so that the 'box' appears square, (b) zoom and move the box so it appears centred in the field of view, and the corners are visible\r\n2. Have the ability to display SUB-file subtitles (duplicated for each eye) and the ability to shuffle where they appear\r\n\r\nNone of this is to say that the app isn't good: rather, just presently it (and no other app, I should point out) addresses the use-case I've presented above.\r\n\r\nCheers.",
+    "LastUpdatedDate": "2014-08-29T06:44:16.933-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "vrplayer",
+    "ReportedDate": "2014-08-25T17:23:04.867-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "VR Player Android: desirable features",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 2,
+    "Id": 15
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

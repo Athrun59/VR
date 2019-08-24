@@ -1,0 +1,431 @@
+2014-04-06 18:58:41,651 [1] ERROR [(null)] - Error while loading media preset.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Models.Presets.PresetsManager.LoadMediaSettings(JObject o)
+2014-04-06 18:58:41,678 [1] ERROR [(null)] - Error while loading device preset.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Models.Presets.PresetsManager.LoadDeviceSettings(JObject o)
+2014-04-06 18:59:26,077 [1] ERROR [(null)] - Error while loading media preset.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Models.Presets.PresetsManager.LoadMediaSettings(JObject o)
+2014-04-06 19:03:48,456 [1] ERROR [(null)] - Error while loading media preset.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Models.Presets.PresetsManager.LoadMediaSettings(JObject o)
+2014-04-06 19:07:14,675 [1] ERROR [(null)] - Error while loading media preset.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Models.Presets.PresetsManager.LoadMediaSettings(JObject o)
+2014-04-06 19:10:13,445 [1] ERROR [(null)] - Error while loading configs settings.
+System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at VrPlayer.Models.Settings.SettingsManager.LoadConfigsSettings()
+2014-04-06 19:10:13,504 [1] ERROR [(null)] - Error while loading media preset.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Models.Presets.PresetsManager.LoadMediaSettings(JObject o)
+2014-04-06 19:10:13,505 [1] ERROR [(null)] - Error while loading device preset.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Models.Presets.PresetsManager.LoadDeviceSettings(JObject o)
+2014-04-06 19:10:40,592 [1] ERROR [(null)] - Error while loading media preset.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Models.Presets.PresetsManager.LoadMediaSettings(JObject o)
+2014-07-06 07:37:45,863 [1] ERROR [(null)] - Error while loading application settings.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at VrPlayer.Helpers.ConfigHelper.ParseDouble(String value)
+   at VrPlayer.Models.Config.AppSettingsApplicationConfig..ctor()
+2014-07-06 07:37:47,169 [1] ERROR [(null)] - Error while initializing application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.String.IndexOf(String value, Int32 startIndex, Int32 count, StringComparison comparisonType)
+   at VrPlayer.Models.State.DefaultApplicationState.<>c__DisplayClassc.<.ctor>b__0(IPlugin`1 m)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.<DefaultIfEmptyIterator>d__a5`1.MoveNext()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at VrPlayer.Models.State.DefaultApplicationState..ctor(IApplicationConfig config, IPluginManager pluginManager)
+   at VrPlayer.App..ctor()
+2014-07-06 07:37:47,175 [1] ERROR [(null)] - Error while starting up application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.App.App_OnStartup(Object sender, StartupEventArgs e)
+2014-07-06 07:37:47,202 [1] ERROR [(null)] - Error while initilizing Menu view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.Menu..ctor()
+2014-07-06 07:37:47,208 [1] ERROR [(null)] - Error while initilizing ControlPanel view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ControlPanel..ctor()
+2014-07-06 07:37:47,218 [1] ERROR [(null)] - Error while initilizing MainViewPort view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ViewPorts.MainViewPort..ctor()
+2014-07-06 07:37:47,219 [1] ERROR [(null)] - Error while initilizing Main window.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.MainWindow..ctor()
+2014-07-06 07:37:50,398 [1] ERROR [(null)] - Error while loading application settings.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at VrPlayer.Helpers.ConfigHelper.ParseDouble(String value)
+   at VrPlayer.Models.Config.AppSettingsApplicationConfig..ctor()
+2014-07-06 07:37:51,359 [1] ERROR [(null)] - Error while initializing application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.String.IndexOf(String value, Int32 startIndex, Int32 count, StringComparison comparisonType)
+   at VrPlayer.Models.State.DefaultApplicationState.<>c__DisplayClassc.<.ctor>b__0(IPlugin`1 m)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.<DefaultIfEmptyIterator>d__a5`1.MoveNext()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at VrPlayer.Models.State.DefaultApplicationState..ctor(IApplicationConfig config, IPluginManager pluginManager)
+   at VrPlayer.App..ctor()
+2014-07-06 07:37:51,361 [1] ERROR [(null)] - Error while starting up application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.App.App_OnStartup(Object sender, StartupEventArgs e)
+2014-07-06 07:37:51,378 [1] ERROR [(null)] - Error while initilizing Menu view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.Menu..ctor()
+2014-07-06 07:37:51,383 [1] ERROR [(null)] - Error while initilizing ControlPanel view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ControlPanel..ctor()
+2014-07-06 07:37:51,387 [1] ERROR [(null)] - Error while initilizing MainViewPort view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ViewPorts.MainViewPort..ctor()
+2014-07-06 07:37:51,387 [1] ERROR [(null)] - Error while initilizing Main window.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.MainWindow..ctor()
+2014-07-06 07:39:21,644 [1] ERROR [(null)] - Error while loading application settings.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at VrPlayer.Helpers.ConfigHelper.ParseDouble(String value)
+   at VrPlayer.Models.Config.AppSettingsApplicationConfig..ctor()
+2014-07-06 07:39:22,646 [1] ERROR [(null)] - Error while initializing application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.String.IndexOf(String value, Int32 startIndex, Int32 count, StringComparison comparisonType)
+   at VrPlayer.Models.State.DefaultApplicationState.<>c__DisplayClassc.<.ctor>b__0(IPlugin`1 m)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.<DefaultIfEmptyIterator>d__a5`1.MoveNext()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at VrPlayer.Models.State.DefaultApplicationState..ctor(IApplicationConfig config, IPluginManager pluginManager)
+   at VrPlayer.App..ctor()
+2014-07-06 07:39:22,648 [1] ERROR [(null)] - Error while starting up application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.App.App_OnStartup(Object sender, StartupEventArgs e)
+2014-07-06 07:39:22,667 [1] ERROR [(null)] - Error while initilizing Menu view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.Menu..ctor()
+2014-07-06 07:39:22,672 [1] ERROR [(null)] - Error while initilizing ControlPanel view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ControlPanel..ctor()
+2014-07-06 07:39:22,676 [1] ERROR [(null)] - Error while initilizing MainViewPort view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ViewPorts.MainViewPort..ctor()
+2014-07-06 07:39:22,677 [1] ERROR [(null)] - Error while initilizing Main window.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.MainWindow..ctor()
+2014-07-06 07:39:29,830 [1] ERROR [(null)] - Error while loading application settings.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at VrPlayer.Helpers.ConfigHelper.ParseDouble(String value)
+   at VrPlayer.Models.Config.AppSettingsApplicationConfig..ctor()
+2014-07-06 07:39:30,808 [1] ERROR [(null)] - Error while initializing application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.String.IndexOf(String value, Int32 startIndex, Int32 count, StringComparison comparisonType)
+   at VrPlayer.Models.State.DefaultApplicationState.<>c__DisplayClassc.<.ctor>b__0(IPlugin`1 m)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.<DefaultIfEmptyIterator>d__a5`1.MoveNext()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at VrPlayer.Models.State.DefaultApplicationState..ctor(IApplicationConfig config, IPluginManager pluginManager)
+   at VrPlayer.App..ctor()
+2014-07-06 07:39:30,810 [1] ERROR [(null)] - Error while starting up application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.App.App_OnStartup(Object sender, StartupEventArgs e)
+2014-07-06 07:39:30,828 [1] ERROR [(null)] - Error while initilizing Menu view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.Menu..ctor()
+2014-07-06 07:39:30,832 [1] ERROR [(null)] - Error while initilizing ControlPanel view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ControlPanel..ctor()
+2014-07-06 07:39:30,836 [1] ERROR [(null)] - Error while initilizing MainViewPort view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ViewPorts.MainViewPort..ctor()
+2014-07-06 07:39:30,836 [1] ERROR [(null)] - Error while initilizing Main window.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.MainWindow..ctor()
+2014-07-06 07:40:37,559 [1] ERROR [(null)] - Error while loading application settings.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at VrPlayer.Helpers.ConfigHelper.ParseDouble(String value)
+   at VrPlayer.Models.Config.AppSettingsApplicationConfig..ctor()
+2014-07-06 07:40:38,658 [1] ERROR [(null)] - Error while initializing application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.String.IndexOf(String value, Int32 startIndex, Int32 count, StringComparison comparisonType)
+   at VrPlayer.Models.State.DefaultApplicationState.<>c__DisplayClassc.<.ctor>b__0(IPlugin`1 m)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.<DefaultIfEmptyIterator>d__a5`1.MoveNext()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at VrPlayer.Models.State.DefaultApplicationState..ctor(IApplicationConfig config, IPluginManager pluginManager)
+   at VrPlayer.App..ctor()
+2014-07-06 07:40:38,660 [1] ERROR [(null)] - Error while starting up application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.App.App_OnStartup(Object sender, StartupEventArgs e)
+2014-07-06 07:40:38,679 [1] ERROR [(null)] - Error while initilizing Menu view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.Menu..ctor()
+2014-07-06 07:40:38,684 [1] ERROR [(null)] - Error while initilizing ControlPanel view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ControlPanel..ctor()
+2014-07-06 07:40:38,688 [1] ERROR [(null)] - Error while initilizing MainViewPort view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ViewPorts.MainViewPort..ctor()
+2014-07-06 07:40:38,689 [1] ERROR [(null)] - Error while initilizing Main window.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.MainWindow..ctor()
+2014-07-06 07:42:11,960 [1] ERROR [(null)] - Error while loading application settings.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at VrPlayer.Helpers.ConfigHelper.ParseDouble(String value)
+   at VrPlayer.Models.Config.AppSettingsApplicationConfig..ctor()
+2014-07-06 07:42:12,962 [1] ERROR [(null)] - Error while initializing application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.String.IndexOf(String value, Int32 startIndex, Int32 count, StringComparison comparisonType)
+   at VrPlayer.Models.State.DefaultApplicationState.<>c__DisplayClassc.<.ctor>b__0(IPlugin`1 m)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.<DefaultIfEmptyIterator>d__a5`1.MoveNext()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at VrPlayer.Models.State.DefaultApplicationState..ctor(IApplicationConfig config, IPluginManager pluginManager)
+   at VrPlayer.App..ctor()
+2014-07-06 07:42:12,965 [1] ERROR [(null)] - Error while starting up application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.App.App_OnStartup(Object sender, StartupEventArgs e)
+2014-07-06 07:42:12,984 [1] ERROR [(null)] - Error while initilizing Menu view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.Menu..ctor()
+2014-07-06 07:42:12,988 [1] ERROR [(null)] - Error while initilizing ControlPanel view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ControlPanel..ctor()
+2014-07-06 07:42:12,993 [1] ERROR [(null)] - Error while initilizing MainViewPort view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ViewPorts.MainViewPort..ctor()
+2014-07-06 07:42:12,993 [1] ERROR [(null)] - Error while initilizing Main window.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.MainWindow..ctor()
+2014-07-06 07:42:45,429 [1] ERROR [(null)] - Error while loading application settings.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at VrPlayer.Helpers.ConfigHelper.ParseDouble(String value)
+   at VrPlayer.Models.Config.AppSettingsApplicationConfig..ctor()
+2014-07-06 07:42:46,417 [1] ERROR [(null)] - Error while initializing application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.String.IndexOf(String value, Int32 startIndex, Int32 count, StringComparison comparisonType)
+   at VrPlayer.Models.State.DefaultApplicationState.<>c__DisplayClassc.<.ctor>b__0(IPlugin`1 m)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.<DefaultIfEmptyIterator>d__a5`1.MoveNext()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at VrPlayer.Models.State.DefaultApplicationState..ctor(IApplicationConfig config, IPluginManager pluginManager)
+   at VrPlayer.App..ctor()
+2014-07-06 07:42:46,419 [1] ERROR [(null)] - Error while starting up application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.App.App_OnStartup(Object sender, StartupEventArgs e)
+2014-07-06 07:42:46,437 [1] ERROR [(null)] - Error while initilizing Menu view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.Menu..ctor()
+2014-07-06 07:42:46,441 [1] ERROR [(null)] - Error while initilizing ControlPanel view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ControlPanel..ctor()
+2014-07-06 07:42:46,445 [1] ERROR [(null)] - Error while initilizing MainViewPort view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ViewPorts.MainViewPort..ctor()
+2014-07-06 07:42:46,445 [1] ERROR [(null)] - Error while initilizing Main window.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.MainWindow..ctor()
+2014-07-06 08:05:34,888 [1] ERROR [(null)] - Error while loading application settings.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at VrPlayer.Helpers.ConfigHelper.ParseDouble(String value)
+   at VrPlayer.Models.Config.AppSettingsApplicationConfig..ctor()
+2014-07-06 08:05:35,934 [1] ERROR [(null)] - Error while initializing application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.String.IndexOf(String value, Int32 startIndex, Int32 count, StringComparison comparisonType)
+   at VrPlayer.Models.State.DefaultApplicationState.<>c__DisplayClassc.<.ctor>b__0(IPlugin`1 m)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.<DefaultIfEmptyIterator>d__a5`1.MoveNext()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at VrPlayer.Models.State.DefaultApplicationState..ctor(IApplicationConfig config, IPluginManager pluginManager)
+   at VrPlayer.App..ctor()
+2014-07-06 08:05:35,936 [1] ERROR [(null)] - Error while starting up application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.App.App_OnStartup(Object sender, StartupEventArgs e)
+2014-07-06 08:05:35,953 [1] ERROR [(null)] - Error while initilizing Menu view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.Menu..ctor()
+2014-07-06 08:05:35,957 [1] ERROR [(null)] - Error while initilizing ControlPanel view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ControlPanel..ctor()
+2014-07-06 08:05:35,961 [1] ERROR [(null)] - Error while initilizing MainViewPort view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ViewPorts.MainViewPort..ctor()
+2014-07-06 08:05:35,962 [1] ERROR [(null)] - Error while initilizing Main window.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.MainWindow..ctor()
+2014-07-06 08:12:47,319 [1] ERROR [(null)] - Error while loading application settings.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at VrPlayer.Helpers.ConfigHelper.ParseDouble(String value)
+   at VrPlayer.Models.Config.AppSettingsApplicationConfig..ctor()
+2014-07-06 08:12:48,433 [1] ERROR [(null)] - Error while initializing application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.String.IndexOf(String value, Int32 startIndex, Int32 count, StringComparison comparisonType)
+   at VrPlayer.Models.State.DefaultApplicationState.<>c__DisplayClassc.<.ctor>b__0(IPlugin`1 m)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.<DefaultIfEmptyIterator>d__a5`1.MoveNext()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at VrPlayer.Models.State.DefaultApplicationState..ctor(IApplicationConfig config, IPluginManager pluginManager)
+   at VrPlayer.App..ctor()
+2014-07-06 08:12:48,435 [1] ERROR [(null)] - Error while starting up application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.App.App_OnStartup(Object sender, StartupEventArgs e)
+2014-07-06 08:12:48,453 [1] ERROR [(null)] - Error while initilizing Menu view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.Menu..ctor()
+2014-07-06 08:12:48,457 [1] ERROR [(null)] - Error while initilizing ControlPanel view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ControlPanel..ctor()
+2014-07-06 08:12:48,463 [1] ERROR [(null)] - Error while initilizing MainViewPort view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ViewPorts.MainViewPort..ctor()
+2014-07-06 08:12:48,463 [1] ERROR [(null)] - Error while initilizing Main window.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.MainWindow..ctor()
+2014-07-06 08:33:48,189 [1] ERROR [(null)] - Error while loading application settings.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at VrPlayer.Helpers.ConfigHelper.ParseDouble(String value)
+   at VrPlayer.Models.Config.AppSettingsApplicationConfig..ctor()
+2014-07-06 08:33:52,088 [1] ERROR [(null)] - Error while initializing application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.String.IndexOf(String value, Int32 startIndex, Int32 count, StringComparison comparisonType)
+   at VrPlayer.Models.State.DefaultApplicationState.<>c__DisplayClassc.<.ctor>b__0(IPlugin`1 m)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.<DefaultIfEmptyIterator>d__a5`1.MoveNext()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at VrPlayer.Models.State.DefaultApplicationState..ctor(IApplicationConfig config, IPluginManager pluginManager)
+   at VrPlayer.App..ctor()
+2014-07-06 08:33:52,118 [1] ERROR [(null)] - Error while starting up application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.App.App_OnStartup(Object sender, StartupEventArgs e)
+2014-07-06 08:33:52,211 [1] ERROR [(null)] - Error while initilizing Menu view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.Menu..ctor()
+2014-07-06 08:33:52,222 [1] ERROR [(null)] - Error while initilizing ControlPanel view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ControlPanel..ctor()
+2014-07-06 08:33:52,274 [1] ERROR [(null)] - Error while initilizing MainViewPort view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ViewPorts.MainViewPort..ctor()
+2014-07-06 08:33:52,278 [1] ERROR [(null)] - Error while initilizing Main window.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.MainWindow..ctor()
+2014-07-06 09:36:55,941 [1] ERROR [(null)] - Error while loading application settings.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at VrPlayer.Helpers.ConfigHelper.ParseDouble(String value)
+   at VrPlayer.Models.Config.AppSettingsApplicationConfig..ctor()
+2014-07-06 09:36:56,979 [1] ERROR [(null)] - Error while initializing application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.String.IndexOf(String value, Int32 startIndex, Int32 count, StringComparison comparisonType)
+   at VrPlayer.Models.State.DefaultApplicationState.<>c__DisplayClassc.<.ctor>b__0(IPlugin`1 m)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.<DefaultIfEmptyIterator>d__a5`1.MoveNext()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at VrPlayer.Models.State.DefaultApplicationState..ctor(IApplicationConfig config, IPluginManager pluginManager)
+   at VrPlayer.App..ctor()
+2014-07-06 09:36:56,984 [1] ERROR [(null)] - Error while starting up application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.App.App_OnStartup(Object sender, StartupEventArgs e)
+2014-07-06 09:36:57,002 [1] ERROR [(null)] - Error while initilizing Menu view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.Menu..ctor()
+2014-07-06 09:36:57,006 [1] ERROR [(null)] - Error while initilizing ControlPanel view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ControlPanel..ctor()
+2014-07-06 09:36:57,010 [1] ERROR [(null)] - Error while initilizing MainViewPort view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ViewPorts.MainViewPort..ctor()
+2014-07-06 09:36:57,010 [1] ERROR [(null)] - Error while initilizing Main window.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.MainWindow..ctor()
+2014-07-06 09:41:57,038 [1] ERROR [(null)] - Error while loading application settings.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at VrPlayer.Helpers.ConfigHelper.ParseDouble(String value)
+   at VrPlayer.Models.Config.AppSettingsApplicationConfig..ctor()
+2014-07-06 09:41:58,048 [1] ERROR [(null)] - Error while initializing application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.String.IndexOf(String value, Int32 startIndex, Int32 count, StringComparison comparisonType)
+   at VrPlayer.Models.State.DefaultApplicationState.<>c__DisplayClassc.<.ctor>b__0(IPlugin`1 m)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.<DefaultIfEmptyIterator>d__a5`1.MoveNext()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at VrPlayer.Models.State.DefaultApplicationState..ctor(IApplicationConfig config, IPluginManager pluginManager)
+   at VrPlayer.App..ctor()
+2014-07-06 09:41:58,051 [1] ERROR [(null)] - Error while starting up application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.App.App_OnStartup(Object sender, StartupEventArgs e)
+2014-07-06 09:41:58,071 [1] ERROR [(null)] - Error while initilizing Menu view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.Menu..ctor()
+2014-07-06 09:41:58,076 [1] ERROR [(null)] - Error while initilizing ControlPanel view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ControlPanel..ctor()
+2014-07-06 09:41:58,081 [1] ERROR [(null)] - Error while initilizing MainViewPort view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ViewPorts.MainViewPort..ctor()
+2014-07-06 09:41:58,082 [1] ERROR [(null)] - Error while initilizing Main window.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.MainWindow..ctor()
+2014-07-06 09:43:45,373 [1] ERROR [(null)] - Error while loading application settings.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at VrPlayer.Helpers.ConfigHelper.ParseDouble(String value)
+   at VrPlayer.Models.Config.AppSettingsApplicationConfig..ctor()
+2014-07-06 09:43:46,550 [1] ERROR [(null)] - Error while initializing application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.String.IndexOf(String value, Int32 startIndex, Int32 count, StringComparison comparisonType)
+   at VrPlayer.Models.State.DefaultApplicationState.<>c__DisplayClassc.<.ctor>b__0(IPlugin`1 m)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.<DefaultIfEmptyIterator>d__a5`1.MoveNext()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at VrPlayer.Models.State.DefaultApplicationState..ctor(IApplicationConfig config, IPluginManager pluginManager)
+   at VrPlayer.App..ctor()
+2014-07-06 09:43:46,553 [1] ERROR [(null)] - Error while starting up application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.App.App_OnStartup(Object sender, StartupEventArgs e)
+2014-07-06 09:43:46,570 [1] ERROR [(null)] - Error while initilizing Menu view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.Menu..ctor()
+2014-07-06 09:43:46,574 [1] ERROR [(null)] - Error while initilizing ControlPanel view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ControlPanel..ctor()
+2014-07-06 09:43:46,580 [1] ERROR [(null)] - Error while initilizing MainViewPort view.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.Views.ViewPorts.MainViewPort..ctor()
+2014-07-06 09:43:46,580 [1] ERROR [(null)] - Error while initilizing Main window.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VrPlayer.MainWindow..ctor()

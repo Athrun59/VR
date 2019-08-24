@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "1210056",
+    "ThreadId": "532561",
+    "Html": "Do you think it would be possible to, instead of a typical depth map over/under - have a true stereo pair AND corresponding depth maps of each - and be able to use them for subtle distortion from the neck height model?\r<br />\n<br />\nI could see this possibly being very useful it adding that little tough of realism in the parallax shifting you might see from naturally standing idle. Also from seeing the new Oculus headset with head tracking, it'll be more important to get some sort of motion in there on top of having the stereo pair.\r<br />\n<br />\nthoughts? I could get an example image or two for you to review.<br />\n",
+    "PostedDate": "2014-02-18T12:36:55.247-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1224462",
+    "ThreadId": "532561",
+    "Html": "Wow that DK2 is being released, along with hardware that supports '6-degrees-of-freedom'\r<br />\n<br />\nI'm again curious if we can still combine having left/right images, on top of left/right depth maps, for use in creating the head shifting through a slight warp. Since the tools are partially there already in using the depth map for generating a second view, I wonder if this method is easily plausible..\r<br />\n<br />\nthanks<br />\n",
+    "PostedDate": "2014-03-19T08:40:38.23-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1228182",
+    "ThreadId": "532561",
+    "Html": "Hi 3dandswe,<br />\n<br />\nA depth map gives you information about the distance of each pixels acquired by a camera. <br />\nTechnically, you can recreate a 3d scene as a point cloud where each pixel is a point in space.<br />\nWhen you combine this approach with positional tracking and you move you head sideways, you will notice blank spots because you don't have texture and depth information behind each of these point. You only have access to &quot;slices&quot; of data facing the camera. See <a href=\"https://www.youtube.com/watch?v=7QrnwoO1-8A\" rel=\"nofollow\">this example with a Kinect camera</a><br />\n<br />\nI think that having a second depth map from a parallel camera located very near (at human IPD: about 6.5cm) will not give you a lot of new information. <br />\nCameras would have to be more spread apart and facing inward to get a maximum color and depth data behind these &quot;slices&quot; and ultimately, it would be possible to recreate a mesh, or a pseudo-3d scene, with just enough data for the viewer. It would not be perfect and probably some software estimation would be necessary to fill some of the remaining blank spots. Also, one limitation is that long distance objects outside of the depth cameras field of view would appear more flat which not that much of a problem since it's already the case in stereoscopic movies.<br />\n<br />\nAn other aspect to consider with 2 depth map is that having 4 video channels (colors left-right and depth lift-right) would be harder to process in real time.<br />\n<br />\nFinally, if you want to be able to really move in a scene, you might want to consider other 3D scanning solutions (photogrammetry, lidar, etc..)<br />\n<br />\nEnglish is not my primary language so I hope this makes sense :)<br />\nIf you have any questions or comments, do not hesitate!<br />\n<br />\nRegards,<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2014-03-29T09:09:39.767-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "VR Player 0.5 has been released with the bug fix",
+    "ClosedDate": "2013-12-21T12:49:14.767-08:00",
+    "CommentCount": 1,
+    "Custom": null,
+    "Description": "Issue:\r\nWhen pressing the spacebar to restart a video after a video has finished playing, VR Player will begin playing the first video played in a session. \r\n\r\nSteps taken to experience issue:\r\n\r\n1. Open VR Player\r\n2. Open a video\r\n3. Play and let video finish\r\n4. Open a different video\r\n5. Play Video and let video finish\r\n6. Press spacebar\r\n7. Bug Occurs: The first video starts playing again.\r\n\r\nI'm working my way through the code slowly, but I wasn't quite able to pinpoint where the error occurred. \r\n\r\nAs always well done with the program!",
+    "LastUpdatedDate": "2013-12-21T12:49:14.767-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "vrplayer",
+    "ReportedDate": "2013-11-12T14:29:23.3-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "VR Player v0.41 Small Bug: Restarting Video",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 8
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "This problem was caused by VLC mediaplugin adding files in its internal playlist when loading a new video.\nIn VR Player version 0.5, I am now clearing the playlist each time. ",
+      "PostedDate": "2013-12-21T12:49:03.83-08:00",
+      "Id": 128242
+    }
+  ]
+}

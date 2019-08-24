@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "1113916",
+    "ThreadId": "464168",
+    "Html": "Stephane, how do we expect 3D will work in VR Player? Will it just use the 3D channels like YouTube? Is it already working? You've come so far with this already I have no doubts you've given this some thought and effort, I'm just curious as to where this stands.\r<br />\n<br />\nOnce again excellent work, and thank you for all that's been done.<br />\n",
+    "PostedDate": "2013-10-29T18:15:53.963-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1113935",
+    "ThreadId": "464168",
+    "Html": "Hi RogueVogon,\r<br />\n<br />\nVR Player support 3D images/videos in side by side over/under formats.\r<br />\nThere are a few examples at <a href=\"http://www.vrplayer.tv\" rel=\"nofollow\">vrplayer.tv</a> that you can download or stream with the vlc plugin.\r<br />\nMost of the 3D videos that I tried on youtube are in sbs format and they are working surprisingly well, especially when shot with a wide angle camera.\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2013-10-29T18:55:37.027-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": "2013-10-30T07:16:51.87-07:00"
+  },
+  {
+    "Id": "1114159",
+    "ThreadId": "464168",
+    "Html": "That's great! I'll check it out later today.<br />\n<br />\nHow about  resetting the camera to the default position? Has that been implemented?<br />\n<br />\nEdit: Nevermind, actually looked into the documentation and found it- F2 seems to reset the camera position.<br />\n<br />\n<br />\n<br />\nOkay, so I think I might have actually found a suggestion that I can make that hasn't already been done (although statistically I find this unlikely). We can move the camera fairly well now, but it would also be nice to rotate it. <br />\n<br />\nExample of use: Say you want to use VR Player laying down, or want to watch something behind you without turning your head.<br />\n",
+    "PostedDate": "2013-10-30T07:21:47.57-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1114174",
+    "ThreadId": "464168",
+    "Html": "Try the F1 key :)\r<br />\n<br />\nThis will reset calibration in the orientation you are facing. If you are laying down, or facing backward, it will work.\r<br />\nReset position and reset calibration keys are not intuitive. I will probably add a visual menu option.\r<br />\n<br />\nThanks for the feedback,\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2013-10-30T07:54:46.793-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

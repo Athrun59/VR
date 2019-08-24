@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1175340",
+    "ThreadId": "505831",
+    "Html": "Hi,\r<br />\n<br />\nI am trying to have a stream from my webcam on VR player. But, there is something weird with my webcam. In VLC player, it opens with a very low fps when I try defaults, but when I change video input frame rate from advanced options it looks fine. Maybe it's something related to vlc player, because it looks fine with other players also. I don't know, I am not an advanced vlc user :/\r<br />\n<br />\nSo, I was wondering if there is an option to change default fps for stream in VR player? Or any other possible solution/suggestion (with VLC/webcam) maybe?\r<br />\n<br />\nThanks!<br />\n",
+    "PostedDate": "2014-01-17T16:07:14.22-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1188816",
+    "ThreadId": "505831",
+    "Html": "I copied the options line from vlc also but still it is not as smooth as vlc. Here is what I wrote in the URL line:<br />\n<br />\ndshow:// :dshow-fps=30 :live-caching=300<br />\n",
+    "PostedDate": "2014-01-21T17:38:23.753-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

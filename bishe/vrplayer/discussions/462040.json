@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1106944",
+    "ThreadId": "462040",
+    "Html": "Hi Stephane,\r<br />\n<br />\nI was wondering what happened to the old manual slider for plane width? It was handy for adjusting the aspect ratio! I'm wondering why you took it out, and if its ever going to reappear? :)<br />\n",
+    "PostedDate": "2013-10-13T15:59:54.627-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1107446",
+    "ThreadId": "462040",
+    "Html": "Hi WormSlayer!\r<br />\n<br />\nYou should be able to adjust the width of the screen with the slider in Plugins-&gt;Projections-&gt;Planes-&gt;Ratio.\r<br />\nIf the slider is missing, this is a bug because I did not took it out on purpose. :(\r<br />\nI'll check to see if I introduced the bug in the last release.\r<br />\n<br />\nThank you and best regards,\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2013-10-14T20:44:26-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

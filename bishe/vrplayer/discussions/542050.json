@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1233391",
+    "ThreadId": "542050",
+    "Html": "I can't get the VR player to just play a video. I installed VLC and I can see a still of the video but when you hit play it never moves. No crashing the play bar just fills up and nothing moves. Sometime there is a small shutter in the image like it went from frame one to two but thats it. <br />\n<br />\nThanks <br />\n",
+    "PostedDate": "2014-04-11T17:17:50.833-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1235902",
+    "ThreadId": "542050",
+    "Html": "I had the same situation before. It turned out I was using a 64bit VLC player. Change it back to 32bit will do.<br />\n",
+    "PostedDate": "2014-04-20T07:58:57.65-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

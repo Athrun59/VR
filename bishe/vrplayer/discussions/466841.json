@@ -1,0 +1,42 @@
+[
+  {
+    "Id": "1119831",
+    "ThreadId": "466841",
+    "Html": "has anyone tried rendering a video for the VR player in cinema 4d?\r<br />\n<br />\ni'm really interested in making something like that but I don't know how to.<br />\n",
+    "PostedDate": "2013-11-07T08:05:28.417-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1120114",
+    "ThreadId": "466841",
+    "Html": "Hi ecce,\r<br />\n<br />\nHere's a link that might help you to get started.\r<br />\n<a href=\"https://developer.oculusvr.com/forums/viewtopic.php?f=33&amp;t=4613\" rel=\"nofollow\">https://developer.oculusvr.com/forums/viewtopic.php?f=33&t=4613</a>\r<br />\n(It's not specific to cinema 4D)\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2013-11-07T17:56:42.147-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1202646",
+    "ThreadId": "466841",
+    "Html": "At the moment I haven't seen a single renderer that supports 360 degree stereo images. There is a way to achieve it but it requires rendering slices of each 360 image and stitching it together. The other options is rendering a spherical image with a depth map - but the results are not very appealing.<br />\n",
+    "PostedDate": "2014-02-04T12:21:24.92-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1202686",
+    "ThreadId": "466841",
+    "Html": "I saw that you uploaded samples on vrplayer.tv.\r<br />\nThank you, I'll try with the rift later today and create a preset for spherical over-under format.\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2014-02-04T14:22:06.3-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1202734",
+    "ThreadId": "466841",
+    "Html": "I'm not sure if there are other factors to keep in mind; like eye separation when rendering. and also convergence - <a href=\"http://paulbourke.net/stereographics/stereopanoramic/\" rel=\"nofollow\">http://paulbourke.net/stereographics/stereopanoramic/</a> - I'm currently using parallel views. I'm not sure if toe-in is better or if there could be a way to adjust the toe-in within vr player.<br />\n",
+    "PostedDate": "2014-02-04T18:50:53.127-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "Id": "1098852",
+    "ThreadId": "459029",
+    "Html": "I hesitate to post this as an issue until I've analyzed it a but more, but 45min of googling and testing has given nothing so far. I have a recently installed Windows 7 Pro (64bit, fully updated) that I installed VR Player 0.4.1 alpha on.\r<br />\n<br />\nUpon trying to start it I only get a request popup saying:\r<br />\n<br />\n&quot;VrPlayer.exe - .NET Framework Initialization Error\r<br />\n To run this application, you must first install one of the following versions of \r<br />\n the .NET Framework:\r<br />\n v2.0\r<br />\n .NETFramework, Version=v4.0\r<br />\n<br />\n Would you like to download and install version v2.0 of the .NET Framework now&quot;\r<br />\n<br />\nWindows 7 comes with .NET, so trying to install either 2.0 or 4.0 just gets me a &quot;already installed&quot;. If I run the netfx_setupverifier it tells me both 2.0 and 4.0 are working fine.\r<br />\n<br />\nSo I'm lost. Any ideas?<br />\n",
+    "PostedDate": "2013-09-24T21:30:37.677-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1099653",
+    "ThreadId": "459029",
+    "Html": "Spent another hour on this. Made the .NET 4 Client Profile verify it's own installation, installed a few .NET games from Steam. They all came up working fine, but VR Player still refuses to start.<br />\n",
+    "PostedDate": "2013-09-26T06:41:40.753-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1099754",
+    "ThreadId": "459029",
+    "Html": "So I got it to work as a side-effect of debugging it. I installed VSE 2012 (which installed .NET 4.5), pulled the project from git and made it compile. That worked and started up my newly built VR Player without problems.\r<br />\n<br />\nSuspecting that the 4.5 installation might change things I reinstalled the VR Player package, and now it runs.\r<br />\n<br />\nSo... there is that.<br />\n",
+    "PostedDate": "2013-09-26T10:09:41.887-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1100065",
+    "ThreadId": "459029",
+    "Html": "Hello valgrind,\r<br />\n<br />\nThank you for taking the time to report the issue and troubleshooting it!\r<br />\nI am not sure but maybe the problem is related to the version of .net: full vs client profile.\r<br />\nIn .net 4.5, the client profile version has been discontinued so there is only a full version available.\r<br />\nIt's possible that prior the update, you had the client profile only installed..\r<br />\n<br />\nIn anycase, I'm glad that you managed to compile the app and make it work.\r<br />\nI hope you like it and if you have other questions/comments, do not hesitate!\r<br />\n<br />\n--Stephane<br />\n",
+    "PostedDate": "2013-09-27T04:37:55.177-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1100110",
+    "ThreadId": "459029",
+    "Html": "Hi Stephane,\r<br />\n<br />\nInteresting. This is the first time I've used C# besides running games (C guy), so I wasn't even aware there was a distinction between full and client when you aren't compiling. I will have to do some reading on this.\r<br />\n<br />\nCheers!<br />\n",
+    "PostedDate": "2013-09-27T06:48:16.127-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

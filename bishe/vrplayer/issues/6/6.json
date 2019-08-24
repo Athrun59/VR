@@ -1,0 +1,56 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 2,
+    "Custom": null,
+    "Description": "Visible black seam going from bottom to top of view. Is this from pushing the max offset in the wrong direction?",
+    "LastUpdatedDate": "2013-09-26T06:58:27.32-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "vrplayer",
+    "ReportedDate": "2013-08-25T20:35:15.387-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "black seam when viewing depthmap over/under",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 6
+  },
+  "FileAttachments": [
+    {
+      "FileId": 721884,
+      "FileName": "vr_player_tearing.jpg",
+      "DownloadUrl": ".\\721884"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Hi 3dandswe!\n\nThank you for reporting this bug.\nI had this bug once but I never managed to reproduce it.\nI think the black stripe is caused to the projection geometry not being perfectly closed.\nDid you use the Sphere projection or the Dome projection?\n\n-Stephane",
+      "PostedDate": "2013-08-28T20:53:24.76-07:00",
+      "Id": 111502
+    },
+    {
+      "Message": "Hi, it was with a Sphere projection. Haven't tested dome projection styles.",
+      "PostedDate": "2013-09-26T06:58:27.32-07:00",
+      "Id": 115723
+    }
+  ]
+}

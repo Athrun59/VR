@@ -1,0 +1,332 @@
+[
+  {
+    "Id": "438542",
+    "Title": "Mention and Cinema Experience",
+    "LatestDate": "2013-05-10T20:30:24.877-07:00"
+  },
+  {
+    "Id": "445760",
+    "Title": "Ideal File Format and Resolution",
+    "LatestDate": "2014-02-04T18:56:43.22-08:00"
+  },
+  {
+    "Id": "453054",
+    "Title": "frame stepping or image loading",
+    "LatestDate": "2013-08-14T21:37:17.697-07:00"
+  },
+  {
+    "Id": "453438",
+    "Title": "Vuzix VR920",
+    "LatestDate": "2013-08-14T21:35:01.523-07:00"
+  },
+  {
+    "Id": "453701",
+    "Title": "Viewing YouTube yt3d videos",
+    "LatestDate": "2013-08-25T15:44:30.857-07:00"
+  },
+  {
+    "Id": "453852",
+    "Title": "fisheye projection",
+    "LatestDate": "2013-10-27T21:08:42.65-07:00"
+  },
+  {
+    "Id": "454562",
+    "Title": "How to calibrate",
+    "LatestDate": "2013-08-30T18:32:04.327-07:00"
+  },
+  {
+    "Id": "459029",
+    "Title": ".NET initialization error",
+    "LatestDate": "2013-09-27T06:48:16.127-07:00"
+  },
+  {
+    "Id": "462040",
+    "Title": "Changing aspect ratio?",
+    "LatestDate": "2013-10-14T20:44:26-07:00"
+  },
+  {
+    "Id": "462080",
+    "Title": "Playing DVD Control",
+    "LatestDate": "2013-10-14T02:40:06.12-07:00"
+  },
+  {
+    "Id": "464168",
+    "Title": "3D View in VR Player",
+    "LatestDate": "2013-10-30T07:54:46.793-07:00"
+  },
+  {
+    "Id": "466841",
+    "Title": "rendering videos for vr player",
+    "LatestDate": "2014-02-04T18:50:53.127-08:00"
+  },
+  {
+    "Id": "471825",
+    "Title": "File geometry import",
+    "LatestDate": "2014-01-03T09:32:19.837-08:00"
+  },
+  {
+    "Id": "477959",
+    "Title": "Dual Screen mode",
+    "LatestDate": "2014-01-03T18:36:53.867-08:00"
+  },
+  {
+    "Id": "479393",
+    "Title": "Command line options",
+    "LatestDate": "2014-01-03T08:49:16.573-08:00"
+  },
+  {
+    "Id": "484124",
+    "Title": "Netflix Hulu Crackle support!",
+    "LatestDate": "2014-01-13T09:48:23.15-08:00"
+  },
+  {
+    "Id": "484125",
+    "Title": "Easier positioning controls",
+    "LatestDate": "2017-01-27T05:42:59.18-08:00"
+  },
+  {
+    "Id": "484126",
+    "Title": "File Broweser menu controls",
+    "LatestDate": "2014-02-04T19:12:12.913-08:00"
+  },
+  {
+    "Id": "484127",
+    "Title": "TRIDEF with Fraps to convert 2d-3d content for vrplayer",
+    "LatestDate": "2014-01-13T10:05:46.247-08:00"
+  },
+  {
+    "Id": "487986",
+    "Title": "Error installing",
+    "LatestDate": "2014-02-20T10:01:28.213-08:00"
+  },
+  {
+    "Id": "505831",
+    "Title": "Stream",
+    "LatestDate": "2014-01-21T17:38:23.753-08:00"
+  },
+  {
+    "Id": "518160",
+    "Title": "AVCHD 3D in vrPlayer",
+    "LatestDate": "2014-02-04T09:37:09.863-08:00"
+  },
+  {
+    "Id": "526467",
+    "Title": "Creating and Using Samples using 3D Rendered Images",
+    "LatestDate": "2014-02-04T09:43:49.317-08:00"
+  },
+  {
+    "Id": "528527",
+    "Title": "Video freezes on first frame",
+    "LatestDate": "2014-02-04T09:50:27.117-08:00"
+  },
+  {
+    "Id": "528914",
+    "Title": "preset metadata",
+    "LatestDate": "2014-02-04T19:04:40.027-08:00"
+  },
+  {
+    "Id": "532561",
+    "Title": "depth map & over/under",
+    "LatestDate": "2014-03-29T09:09:39.767-07:00"
+  },
+  {
+    "Id": "538578",
+    "Title": "VrPlayer has stopped working",
+    "LatestDate": "2014-03-10T19:20:02.807-07:00"
+  },
+  {
+    "Id": "538704",
+    "Title": "VRPlayer not working good with high frame rate 3D 360 video",
+    "LatestDate": "2014-03-11T22:45:29.7-07:00"
+  },
+  {
+    "Id": "539390",
+    "Title": "Play from crosse-eyed side-by-side source",
+    "LatestDate": "2014-03-30T08:09:49.207-07:00"
+  },
+  {
+    "Id": "540474",
+    "Title": "Can't get VRplayer to work...",
+    "LatestDate": "2014-03-30T16:35:44.343-07:00"
+  },
+  {
+    "Id": "541451",
+    "Title": "video feed",
+    "LatestDate": "2014-04-07T10:24:26.907-07:00"
+  },
+  {
+    "Id": "542050",
+    "Title": "Loads but WONT PLAY!!",
+    "LatestDate": "2014-04-20T07:58:57.65-07:00"
+  },
+  {
+    "Id": "543300",
+    "Title": "How can I get the field of view of panoramic video?",
+    "LatestDate": "2014-04-25T02:21:45.63-07:00"
+  },
+  {
+    "Id": "544667",
+    "Title": "how to view dual full circular fisheye video",
+    "LatestDate": "2014-07-20T01:22:07.613-07:00"
+  },
+  {
+    "Id": "545680",
+    "Title": "DEPTHMAP MONO",
+    "LatestDate": "2014-06-27T10:11:59.507-07:00"
+  },
+  {
+    "Id": "547042",
+    "Title": "How to open streaming video from youtube in HD",
+    "LatestDate": "2014-05-30T04:12:03.403-07:00"
+  },
+  {
+    "Id": "547842",
+    "Title": "Graphics corruption in 0.5.1 ALPHA ",
+    "LatestDate": "2014-06-25T07:26:02.95-07:00"
+  },
+  {
+    "Id": "548264",
+    "Title": "Other people's VR Players are not detecting my plugin...",
+    "LatestDate": "2014-06-29T01:53:39.01-07:00"
+  },
+  {
+    "Id": "548266",
+    "Title": "Is there a way to eliminate the black side margins caused by ViewportsHorizontalOffset?",
+    "LatestDate": "2014-06-25T07:19:54.087-07:00"
+  },
+  {
+    "Id": "553951",
+    "Title": "any reference for sourcecode of android vrplayer ",
+    "LatestDate": "2015-09-16T02:52:27.997-07:00"
+  },
+  {
+    "Id": "553956",
+    "Title": "is it possible to lunch the vrplayer within the chrome? ",
+    "LatestDate": "2014-07-24T02:52:14.193-07:00"
+  },
+  {
+    "Id": "554705",
+    "Title": "Android VR Player",
+    "LatestDate": "2014-07-31T03:09:16.323-07:00"
+  },
+  {
+    "Id": "554719",
+    "Title": "VR Player PC - FreeTrack protocol implementation ",
+    "LatestDate": "2014-07-31T04:26:11.943-07:00"
+  },
+  {
+    "Id": "559987",
+    "Title": "Oculus Rift 0.40 SDK",
+    "LatestDate": "2014-09-04T23:24:17.997-07:00"
+  },
+  {
+    "Id": "560770",
+    "Title": "f4v doesn't start on nexus",
+    "LatestDate": "2014-08-29T06:42:36.18-07:00"
+  },
+  {
+    "Id": "566874",
+    "Title": "Best codec for Android VR Player",
+    "LatestDate": "2014-09-09T03:57:44.81-07:00"
+  },
+  {
+    "Id": "568428",
+    "Title": "Display on other screen dk2",
+    "LatestDate": "2014-09-26T05:14:57.817-07:00"
+  },
+  {
+    "Id": "568674",
+    "Title": "VR Player is good but...",
+    "LatestDate": "2014-09-30T05:43:10.223-07:00"
+  },
+  {
+    "Id": "569468",
+    "Title": "where is RiftWrapper.dll's source code?",
+    "LatestDate": "2014-10-10T02:26:10.35-07:00"
+  },
+  {
+    "Id": "569700",
+    "Title": "VR Player Android 1.4 : Streams",
+    "LatestDate": "2014-10-13T13:30:57.29-07:00"
+  },
+  {
+    "Id": "570019",
+    "Title": "DK2 Supported ?",
+    "LatestDate": "2015-10-13T07:34:57.357-07:00"
+  },
+  {
+    "Id": "581903",
+    "Title": "No video in 3d 360 clips",
+    "LatestDate": "2015-02-26T03:35:57.513-08:00"
+  },
+  {
+    "Id": "584673",
+    "Title": "Embedding VR Player settings JSON in MPEG VR videos",
+    "LatestDate": "2015-03-05T06:48:51.68-08:00"
+  },
+  {
+    "Id": "632430",
+    "Title": "Capture Dshow:",
+    "LatestDate": "2015-04-23T06:40:42.78-07:00"
+  },
+  {
+    "Id": "633845",
+    "Title": "Orientation drifting",
+    "LatestDate": "2015-04-27T06:03:36.713-07:00"
+  },
+  {
+    "Id": "636197",
+    "Title": "3D audio for VR video",
+    "LatestDate": "2015-05-01T18:43:47.27-07:00"
+  },
+  {
+    "Id": "636705",
+    "Title": "How to import 3d mesh?",
+    "LatestDate": "2015-05-04T22:29:02.647-07:00"
+  },
+  {
+    "Id": "639783",
+    "Title": "360 stream rotation?",
+    "LatestDate": "2015-06-10T07:37:12.237-07:00"
+  },
+  {
+    "Id": "647413",
+    "Title": "Controlling play back via remote / gamepad?",
+    "LatestDate": "2015-11-12T02:26:37.643-08:00"
+  },
+  {
+    "Id": "649343",
+    "Title": "OSVR",
+    "LatestDate": "2015-12-27T08:57:09.463-08:00"
+  },
+  {
+    "Id": "651810",
+    "Title": "VRPlayer Helper? Iphone",
+    "LatestDate": "2016-02-26T10:25:32.87-08:00"
+  },
+  {
+    "Id": "651915",
+    "Title": "VRPN",
+    "LatestDate": "2016-02-29T17:52:53.107-08:00"
+  },
+  {
+    "Id": "654368",
+    "Title": "How do I use VR Player with Oculus Rift DK1?",
+    "LatestDate": "2016-05-05T14:31:46.78-07:00"
+  },
+  {
+    "Id": "654411",
+    "Title": "Playback Speed",
+    "LatestDate": "2016-05-07T10:37:50.827-07:00"
+  },
+  {
+    "Id": "662985",
+    "Title": "How To Make Tracker Plugin?",
+    "LatestDate": "2017-05-16T10:53:41.017-07:00"
+  },
+  {
+    "Id": "662986",
+    "Title": "How To Play VR Game or Non VR Game?",
+    "LatestDate": "2017-05-16T10:59:26.24-07:00"
+  }
+]

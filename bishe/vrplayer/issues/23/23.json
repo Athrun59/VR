@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hello,\r\n\r\nI have a Colibri orientation tracker and VRPN server.\r\nI try to setup VR Player to recieve data from VRPN server, but I don't get information.\r\n(although I see connection happends)\r\nIs it because currently VRPN support is limited to knob/button and not to orientation (X,Y,Z?)\r\n\r\nMuch thanks!\r\nM.",
+    "LastUpdatedDate": "2016-03-04T04:05:15.05-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "vrplayer",
+    "ReportedDate": "2016-03-04T04:05:15.05-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "VRPN feed",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 23
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

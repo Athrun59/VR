@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1255086",
+    "ThreadId": "548266",
+    "Html": "I appreciate the feature to adjust the offsets of the viewports, but could there be some way to expand the viewports to cover up the black margins? I can often notice them in the corner of my vision, which reduces my immersion. <br />\n",
+    "PostedDate": "2014-06-11T01:17:21.517-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1259693",
+    "ThreadId": "548266",
+    "Html": "Hi Lindblum,\r<br />\n<br />\nWhich version of VR Player are you using? It should be fixed in the latest version (0.5.1)\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2014-06-25T07:19:54.087-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

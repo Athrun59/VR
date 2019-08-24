@@ -1,0 +1,98 @@
+[
+  {
+    "Id": 1,
+    "Title": "Black screen when playing AVI"
+  },
+  {
+    "Id": 2,
+    "Title": "Cant open png with .png extension"
+  },
+  {
+    "Id": 3,
+    "Title": "cant open .jpeg files"
+  },
+  {
+    "Id": 4,
+    "Title": "mp4 vr files can not be played."
+  },
+  {
+    "Id": 5,
+    "Title": "max offset slider"
+  },
+  {
+    "Id": 6,
+    "Title": "black seam when viewing depthmap over/under"
+  },
+  {
+    "Id": 7,
+    "Title": "VR Player 0.41 Crashes if VLC Is Not Installed."
+  },
+  {
+    "Id": 8,
+    "Title": "VR Player v0.41 Small Bug: Restarting Video"
+  },
+  {
+    "Id": 9,
+    "Title": "remembering previous open file types"
+  },
+  {
+    "Id": 10,
+    "Title": "VR Player 0.5.1 ALPHA crashes on start. Thanks for any help!"
+  },
+  {
+    "Id": 11,
+    "Title": "crash after a few seconds while watching"
+  },
+  {
+    "Id": 12,
+    "Title": "VR Player 1.0 (Android) - no sound!"
+  },
+  {
+    "Id": 13,
+    "Title": "Open file with VLC Crash"
+  },
+  {
+    "Id": 14,
+    "Title": "VRPlayer Android: Video streams aren't working"
+  },
+  {
+    "Id": 15,
+    "Title": "VR Player Android: desirable features"
+  },
+  {
+    "Id": 16,
+    "Title": "VRplayer and Win64 crash with VLC 64bits when playing vidéo."
+  },
+  {
+    "Id": 17,
+    "Title": "Vr Player Android"
+  },
+  {
+    "Id": 18,
+    "Title": "VR Player Windows Black Screen"
+  },
+  {
+    "Id": 19,
+    "Title": "DK2 NullReferenceException On Windows"
+  },
+  {
+    "Id": 20,
+    "Title": "VR Player can not play still picture but video on Android 4.4 "
+  },
+  {
+    "Id": 21,
+    "Title": "How do you play the video on th rift?"
+  },
+  {
+    "Id": 22,
+    "Title": "Is there a Forum where Problems can be ADDRESSED?"
+  },
+  {
+    "Id": 23,
+    "Title": "VRPN feed"
+  },
+  {
+    "Id": 24,
+    "Title": "VR Player android: video streaming HTTP or RTSP"
+  }
+]

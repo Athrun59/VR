@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1417121",
+    "ThreadId": "632430",
+    "Html": "Hi guys I need help in using a directshow capture decvice as source, when i try to open it as &quot;Open streaming&quot; and i put &quot;dshow://&quot;<br />\nI just see a blank screen. <br />\nI tried &quot;screen://&quot; and ir works with some success 8i got a decent frame rate by tweaking the config file under appdata/local) but i need to be able to use &quot;dshow://&quot; and possibly to tweak the cache paramter<br />\ncan someone  help me?<br />\nMany thanks inadvance.   <br />\n",
+    "PostedDate": "2015-04-23T06:40:42.78-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

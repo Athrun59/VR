@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "VR Player 0.5 has been released with the bug fix",
+    "ClosedDate": "2013-12-21T12:46:44.133-08:00",
+    "CommentCount": 2,
+    "Custom": null,
+    "Description": "In version 0.41 when the user chooses \"File->Open File->with VLC...\", the program will unexpectedly crash if VLC isn't installed. The remedy is simply to install VLC but it would be simple enough to add exception handling here directing the user to the VLC installation page.\r\n\r\nI'm guessing it's probably been fixed for 0.5, but I thought it deserved mention.",
+    "LastUpdatedDate": "2013-12-21T12:46:44.133-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "vrplayer",
+    "ReportedDate": "2013-10-31T10:26:28.027-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "VR Player 0.41 Crashes if VLC Is Not Installed.",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 7
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": " Thank you, this is clearly a bug! I will fix it as soon as I can and yes it will be in 0.5.\n\nRegards,\n\n-Stephane",
+      "PostedDate": "2013-11-07T21:04:08.84-08:00",
+      "Id": 122268
+    },
+    {
+      "Message": "VR Player 0.5 has been released with the bug fix so I am closing the issue.\n\n-Stephane",
+      "PostedDate": "2013-12-21T12:46:24.227-08:00",
+      "Id": 128241
+    }
+  ]
+}

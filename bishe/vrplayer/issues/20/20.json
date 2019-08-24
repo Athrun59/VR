@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hello there, firstly , thanks for the awesome development  work on VR player. i appreciate it .\r\n\r\nthere is weird issue on my LG G3, which VR player could play with MP4 video, but can't open any JPG picture(just black screen). does anyone tell me how to get it play with pictures ? \r\n\r\n",
+    "LastUpdatedDate": "2014-12-19T19:43:17.713-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "vrplayer",
+    "ReportedDate": "2014-12-19T19:43:17.713-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "VR Player can not play still picture but video on Android 4.4 ",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 20
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

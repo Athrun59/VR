@@ -1,0 +1,58 @@
+[
+  {
+    "Id": "1051904",
+    "ThreadId": "445760",
+    "Html": "Hello Stephane,\r<br />\n<br />\nWanted to 1st write and commend you for your amazing work.\r<br />\n<br />\nSeeing my 360 content on the Oculus Rift is a dream come true.\r<br />\n<br />\nWanted to ask about file format requirements and best practices.\r<br />\n<br />\nI am only able to get AVI files to work and they are very low resolution.\r<br />\n<br />\nWas hoping you could share what would be the ideal format and resolution for the player.\r<br />\n<br />\n1920x1080?\r<br />\n<br />\nI do not normally render to AVI so maybe there is a setting that I am over looking that could improve picture quality.\r<br />\n<br />\nMaybe there is a wiki document that already explains this?\r<br />\n<br />\nAny advise would be much appreciated.\r<br />\n<br />\nCheers,\r<br />\n<br />\nEzra<br />\n",
+    "PostedDate": "2013-06-02T20:21:26.85-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1053663",
+    "ThreadId": "445760",
+    "Html": "Hello Cyclops,\r<br />\n<br />\nThank you very much I appreciate your support.\r<br />\n<br />\nThe Player is still experimental and I did not have the chance to test on a lot of hardware so there is no documentation about good practices yet.\r<br />\n<br />\nSome people have reported to have good results with 4096x2048 for mono spherical movies.\r<br />\nWith a good PC with hardware acceleration, 4096x4096 for stereo movies should work reasonably well but it takes a lot of storage space and compression really affects performances. Resolutions in the range of 4K is probably overkill for the oculus dev kit. You can get away with less but keep in mind that consumer version will have higher resolution.\r<br />\n<br />\nBase on my experience, I would recommend using base 2 values for resolution and a h.264 codecs (.mp4 or .f4v).\r<br />\n<br />\nI hope this is helping.\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2013-06-06T10:11:37.063-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1198372",
+    "ThreadId": "445760",
+    "Html": "Would not being able to view a 4096x4096 rendered image be the result of a low end video card? On my RMBP I'm currently able to view 1080p sized images, but going higher I get a black screen. Will test at work with a better graphics card~<br />\n",
+    "PostedDate": "2014-01-26T14:37:32.9-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1202594",
+    "ThreadId": "445760",
+    "Html": "Hi,\r<br />\n<br />\nDid you managed to run the player with better graphics cards?\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2014-02-04T09:56:04.31-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1202639",
+    "ThreadId": "445760",
+    "Html": "Hi stephanelx,\r<br />\n<br />\nI ran VR Player with a Quadro 4000 at work - Still had a black screen with a 4096x4096 image. 3000x3000 image loaded ok. Good news is that little detail is noticed with those resolutions. At the moment I've settled on 2160x1080 for my over/under stereo 3d renderings<br />\n",
+    "PostedDate": "2014-02-04T12:10:05.863-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1202677",
+    "ThreadId": "445760",
+    "Html": "Thank you, I will try to get more feedback about this issue. \r<br />\nI'll investigate for possible hardware and/or software limitations\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2014-02-04T13:52:34.12-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1202737",
+    "ThreadId": "445760",
+    "Html": "Stephane,\r<br />\n<br />\nLet me know if I can help in any way with troubleshooting!<br />\n",
+    "PostedDate": "2014-02-04T18:56:43.22-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "1255084",
+    "ThreadId": "548264",
+    "Html": "I have been working on some projection plugins to try to make make stereoscopic movies more immersive. I compiled my DLLs with SharpDevelop which work on my computers, but everyone I have tried sharing them with has been unable to get their VR Player to recognize them, which can be frustrating. And their setups are usually similar to mine: 64-bit Windows 7/8, VR Player installed as 32-bit. I supply links to ZIP files that contain the folder containing the DLL, and instruct them to place that folder into Plugins in the VR Player installation. <br />\n<a href=\"https://developer.oculusvr.com/forums/viewtopic.php?f=42&amp;t=8998\" rel=\"nofollow\">https://developer.oculusvr.com/forums/viewtopic.php?f=42&t=8998</a><br />\nYour &quot;Plugins creation&quot; guide is still just a &quot;Todo&quot; page, so I don't know if I'm missing any important plugin creation steps. I could share my project source if that helps. <br />\n",
+    "PostedDate": "2014-06-11T01:09:22.907-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1259690",
+    "ThreadId": "548264",
+    "Html": "Sorry about the delay, I just sent you an email. I will do my best to help you and this will hopefully give me the occasion to update the documentation!\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2014-06-25T07:15:43.91-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1260848",
+    "ThreadId": "548264",
+    "Html": "Thank you. Perhaps try testing if my <a href=\"http://www.mediafire.com/download/l9hi4yqqlluc6cq/VrPlayer.Projections.MarginStretch-2014-06-18-bin.zip\" rel=\"nofollow\">DLL</a> works when set up in Plugins. <br />\n",
+    "PostedDate": "2014-06-29T01:53:39.01-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

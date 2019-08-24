@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1221708",
+    "ThreadId": "538704",
+    "Html": "Hi,\r<br />\n<br />\nI'm testing my new 3D 360 cam with VRplayer. it seems that VRPlayer was unable to play back smoothly with frame rate like 48 fps or 60 fps. Can anyone help advising what's the limit so far?\r<br />\n<br />\nMy test was a side by side 3D360 video 5768x1384@48fps (bit rate ~30000kbps), not stitched properly as a workflow exercise. However, it usually mess up in the mid way, (<a href=\"http://ge.tt/4dbaZyP1/v/0\" rel=\"nofollow\">see it here</a>) but 30 fps will be fine. All the video were becoming pixelated &amp; slow in response.\r<br />\nNot sure what had gone wrong, but the VLC player alone can play the spherical video smoothly.(snapshot <a href=\"http://ge.tt/1KyzZyP1/v/0\" rel=\"nofollow\">here</a>)\r<br />\n<br />\nThanks.<br />\n",
+    "PostedDate": "2014-03-11T22:45:29.7-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

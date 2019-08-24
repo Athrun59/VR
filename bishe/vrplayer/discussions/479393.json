@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1144919",
+    "ThreadId": "479393",
+    "Html": "Hi Stephane,\r<br />\n<br />\ni'm creating some 3d videos and it works great with your player. But it would be really nice if you could you add some command line options like:\r<br />\n<br />\n-play path/file\r<br />\n-loop (a loop button would be also cool)\r<br />\n-directshow/vlc\r<br />\n-settings file (for predefined settings)\r<br />\n-adapter X (like in unity you can choose the monitor where the player gets displayed)\r<br />\n...\r<br />\n.\r<br />\n<br />\nSo it would be possible to start the video without fiddling too much in the settings..\r<br />\n<br />\nThanks for your work!\r<br />\n-Dreymo<br />\n",
+    "PostedDate": "2014-01-03T00:09:36.67-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1145068",
+    "ThreadId": "479393",
+    "Html": "Hi Dreymo,\r<br />\n<br />\nThank you for your feedback.\r<br />\n<br />\nCurrently vrplayer can be launched with 2 parameters: the file name and a preset file.\r<br />\n(e.g: vrplayer.exe &quot;c:\\movie.mp4&quot; &quot;c:\\preset.json&quot;)\r<br />\nNote: if you don't specify a preset file, the player will look for the file name + &quot;.json&quot;\r<br />\n(e.g: c:\\movie.mp4.json) unless the option has been desactivated in the general options panel\r<br />\n<br />\nI will add this information to the user documentation.\r<br />\n<br />\nAlso, there is a loop button at the bottom right of the screen (next to the time bar) but it look like a refresh button :S\r<br />\n<br />\nI was thinking about including application configuration (loop, default monitor and other options like shortcuts) in preset file but I changed my mind because I did not want users to upload app configs to vrplayer.tv and mess-up settings specific to users. Using command line seems to be a good idea so I added it to the backlog and see what we can do.\r<br />\n<br />\nBest regards,\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2014-01-03T08:49:16.573-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

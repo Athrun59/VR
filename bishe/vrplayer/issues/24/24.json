@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi,\r\n\r\nI'm trying to stream my webcam video output over VLC by HTTP or RTSP protocol.\r\n\r\nThe streaming is working properly from VLC player (ubuntu) to VLC player (android), but fails when I tries from VLC player (ubuntu) to VR player (android).\r\n\r\nSteps to reproduce:\r\n- Stream video over VLC HTTP in PC (http://192.168.1.100:8090/) \r\n- Open VR Player (android)\r\n- Select \"Open Url\"\r\n- Insert the url path: http://192.168.1.100:8090/\r\n- The message is popup: \"Media could not be found\"\r\n\r\nor\r\n- Stream video over VLC RTSP in PC (rtsp://192.168.1.100:8554/)\r\n- Open VR Player (android)\r\n- Select \"Open Url\"\r\n- Insert the url path: rtsp://192.168.1.100:8554/\r\n- The message is popup: \"Media could not be found\"\r\n\r\nAm I doing something wrong? Is it possible stream the webcam output to VR Player?\r\n\r\nTks,\r\nGuilherme Chinellato\r\n\r\n",
+    "LastUpdatedDate": "2016-09-18T20:41:53.44-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "vrplayer",
+    "ReportedDate": "2016-09-18T20:41:53.44-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "VR Player android: video streaming HTTP or RTSP",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 24
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,61 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Bug fixed in 0.4.1.0",
+    "ClosedDate": "2013-08-11T16:28:48.647-07:00",
+    "CommentCount": 3,
+    "Custom": null,
+    "Description": "In the latest version of VR Player, you've removed the slider for max offset in depth map over/under. Is there a reason for this? I've been having a crack at using this player to look at 3d renderings. I'll render a beauty image and a depth map and combine them in Photoshop - but without the offset slider the image is too offset in the views.\r\n\r\nAre there plans to bring back the slider or is there a more elegant way for me to put these images together to be viewed?\r\n\r\nthanks!",
+    "LastUpdatedDate": "2013-08-11T16:28:48.647-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "vrplayer",
+    "ReportedDate": "2013-08-08T08:23:18.253-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "max offset slider",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 5
+  },
+  "FileAttachments": [
+    {
+      "FileId": 715876,
+      "FileName": "test.zip",
+      "DownloadUrl": ".\\715876"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Here are some test renders. over/under style with depth maps. I tried various min/max depths of the zdepth pass to find one that would look correct in the viewer. Is there some way to properly set the player to view a 3d generated depth pass? thanks",
+      "PostedDate": "2013-08-08T20:36:23.413-07:00",
+      "Id": 109143
+    },
+    {
+      "Message": "Hi 3dandswe,\n\nI removed the configuration panel for the depth map (over/under) effect plugin by mistake.\nThe bug has been fixed and released as version 0.4.1.0. Thank you very much for the test images, I am very happy to know that someone is experimenting with this feature. If you need anything else, do not hesitate to contact me.\n\nRegards,\n\n-Stephane",
+      "PostedDate": "2013-08-11T15:25:52.497-07:00",
+      "Id": 109364
+    },
+    {
+      "Message": "Thanks Stephane!\n\nAlready downloaded the latest version and have been playing with it. Great to have that feature back :P\nIn my review I mentioned it might be useful to be able to set a keyboard shortcut for the max offset - when viewing my images I'll have the plugins window open and trying to drag the slider while viewing. I don't know if there could be a way to dial the slider with more precision.. \n\notherwise this feature is amazing, it's the best way I've found to spit out 3d 360 images to be viewed on the oculus. and I thank you for that!\n\ncheers",
+      "PostedDate": "2013-08-11T15:54:37.153-07:00",
+      "Id": 109367
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1201355",
+    "ThreadId": "528527",
+    "Html": "This is a great piece of software - at work it is fine but on my laptop I can't stream any video.\r<br />\n<br />\nI click stream with VLC and it freezes on the first frame whilst the audio continues.\r<br />\n<br />\nIt is the same with any other video too.\r<br />\n<br />\nHas anybody found this problem?\r<br />\n<br />\nMany thanks\r<br />\n<br />\nJonathan<br />\n",
+    "PostedDate": "2014-01-31T07:46:30.18-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1202590",
+    "ThreadId": "528527",
+    "Html": "Hi!\r<br />\n<br />\nActually, there is one user with the same problem and we are trying to find a solution.\r<br />\nMaybe the problem with the default VLC options I am using..\r<br />\n<br />\nHere's some thing you could try to diagnose the problem:\r<br />\n<br />\nIn the file &quot;C:\\Users[YOUR USER NAME]\\AppData\\Local\\VrPlayer\\VrPlayer.exe_Url_bdskikkk2e4shgvwtqjmd4r2snqznpyd\\0.5.1.0\\user.config&quot; (Folder name might be slightly different), find the option key for vlc media plugin (if you search for the word &quot;Options&quot; in the document, it should be easy) and replace current options with &quot;-v --file-logging&quot; and save the document. Relaunch VR Player.\r<br />\n<br />\nExample:<br />\n<pre><code> {&quot;Key&quot;:&quot;Options&quot;,&quot;Value&quot;:&quot;-v --file-logging&quot;}</code></pre>\n\nIf this work as expected, a console will popop with vlc debug informations when you will launch a video.\r<br />\n<br />\nPlease let me know if you see an obvious error in the console log.\r<br />\n<br />\nThank you,\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2014-02-04T09:50:27.117-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

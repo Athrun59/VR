@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1085017",
+    "ThreadId": "454562",
+    "Html": "Hello.\r<br />\nWhen I play a video without changing the configuration, I have a blank between my eye.\r<br />\nSo what is the steps to calibrate it ?\r<br />\nMaybe using the grid or the cubeMono will help ?\r<br />\n<br />\nI tried with OP - KL -NM but I didn't know where is the best calibration.\r<br />\nSo I know how to calibrate it. But not how to GOOD calibrate it...<br />\n",
+    "PostedDate": "2013-08-26T10:46:31.74-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1086832",
+    "ThreadId": "454562",
+    "Html": "Hi!\r<br />\n<br />\nFor calibration I use the default grid image. If you are using the oculus rift, everything should be calibrated by default.\r<br />\nYou can try changing manually the horizontal offset in tools-&gt;settings-&gt;display just in case there is a problem with the shortcuts.\r<br />\nIn the next version I should support presets so it will be easier to manage and reset calibration data.\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2013-08-30T18:32:04.327-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

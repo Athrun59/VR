@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1080688",
+    "ThreadId": "453438",
+    "Html": "The Vuzix VR920 it is supported by the vr player??\r<br />\n<br />\nThanks<br />\n",
+    "PostedDate": "2013-08-14T12:23:44.327-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1080806",
+    "ThreadId": "453438",
+    "Html": "Bonjour urospeed,\r<br />\n<br />\nLa réponse courte: non.\r<br />\n<br />\nLa réponse longue: J'ai regardé les rapidement les spécifications techniques du VR920. Malheureusement, VR Player new supporte pas le page flipping (alternance rapide des images gauche et droites) alors je doute que les drivers stereo NVIDIA fonctionnent. Peut-être qu'il serait possible de convertir le signal avec une solution logicielle mais je n'ai aucune expérience dans le domaine.\r<br />\nDe plus, le support du capteur d'orientation n'a pas été implémenté donc il faudrait coder un plugin VR Player spécifique au Vuzix.\r<br />\nBref je ne recommande pas l'utilisation de ce casque à moins que tu sois très motivé.\r<br />\n<br />\nCordialement,\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2013-08-14T21:35:01.523-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Need to install a codec pack. Documentation has been updated.",
+    "ClosedDate": "2013-04-26T09:39:44.723-07:00",
+    "CommentCount": 1,
+    "Custom": null,
+    "Description": "When using v1.5.0 I can see the static samples fine. However, when I try to play AVI files (XVID+MP3) which play fine in Windows Media Player, all I see is a black screen/window. Audio works, so the file is definitely playing. There's nothing in the debug console window.",
+    "LastUpdatedDate": "2013-04-26T09:39:44.723-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "vrplayer",
+    "ReportedDate": "2013-03-30T18:04:57.05-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Black screen when playing AVI",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 1
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello kingtut.\n\nThank you for the feedback! To fix the problem, you should download a codec pack like [K-Lite](http://codecguide.com/download_kl.htm)\n\nI will upload documentation.\n",
+      "PostedDate": "2013-04-08T17:26:14.327-07:00",
+      "Id": 96439
+    }
+  ]
+}

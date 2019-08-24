@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 1,
+    "Custom": null,
+    "Description": "Hello,\r\n\r\n\r\nVRplayer 32bits doesn't work with VLC 64bits on Win64. \r\nIt's a path problems. VRplayer can't find VLC path.\r\n\r\nSo, we can install VLC32 on Win64. It's work... but.. very slowly. \r\nDo you have an 64bits version of VRplayer ?\r\n\r\n\r\nI'll try to compile a 64bits version of the player. \r\nDo you think that adapatations are needed?\r\n\r\n\r\n\r\n\r\na++\r\nNumael",
+    "LastUpdatedDate": "2016-02-15T14:32:32.337-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "vrplayer",
+    "ReportedDate": "2014-08-28T01:45:39.11-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "VRplayer and Win64 crash with VLC 64bits when playing vidéo.",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 2,
+    "Id": 16
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi there!\n\nDid you ever get an answer to this question?  Or find a good workaround?\n\nThanks,\nJoe",
+      "PostedDate": "2016-02-15T14:32:32.337-08:00",
+      "Id": 196695
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+[
+  {
+    "Id": "0",
+    "Name": "VR Player 0.5 ALPHA",
+    "DevelopmentStatus": "Alpha",
+    "Description": "* General\n**  Presets files\n** Side car file support\n** Basic head-neck model\n** Remove clipping from viewports\n** Merged settings and plugins windows\n** Various bugs fixes\n* Projections\n** Full dome projection\n** Dual dome projection\n** Dual full dome projection\n* Trackers\n** YEI 3-space support\n** Leap is now available\n* Distortions\n** Barrel distortion now support chromatic aberration correction\n* Effects\n** Included some sample effects from Shazzam",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2013-12-16T22:55:01.393-08:00",
+    "Files": [
+      {
+        "Id": "38611e3e-97dd-447c-9d53-3f1f1638a665",
+        "FileName": "VrPlayerSetup.msi",
+        "Url": "./0/38611e3e-97dd-447c-9d53-3f1f1638a665",
+        "Type": "Application",
+        "UploadDate": "2013-12-15T22:09:57.017-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "1",
+    "Name": "VR Player 0.4.1 ALPHA",
+    "DevelopmentStatus": "Alpha",
+    "Description": "* New plugins types in backend: Media and stabilizers \n* VLC support (Files, streams/youtube, DVD)\n* GDI screen capture\n* Dome projection horizontal and vertical crop parameters\n* Cylinder projection horizontal crop parameter\n* Sphere projection ellipsoid parameters (width, height, depth)\n* User settings auto-save\n* Keyboard shortcuts edition\n* Anaglyph effect\n* Cross-eyed layout\n* Improved UI\n* New sample",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2013-08-11T14:50:32.003-07:00",
+    "Files": [
+      {
+        "Id": "c06957a8-b8ce-4693-a02d-7f25470ce624",
+        "FileName": "VrPlayerSetup.msi",
+        "Url": "./1/c06957a8-b8ce-4693-a02d-7f25470ce624",
+        "Type": "Application",
+        "UploadDate": "2013-08-11T14:50:30.523-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "VR Player 0.3.1 ALPHA",
+    "DevelopmentStatus": "Alpha",
+    "Description": "* New plugin system with individual folders\n* TrackIR support\n* Maya and 3ds max formats support\n* Dual screen support\n* Mono layouts (left and right)\n* Cylinder height parameter\n* Barel effect factor parameter\n* Razer hydra filter parameter\n* VRPN bug fixes\n* UI improvements\n* Performances improvements\n* Stabilization and logging with Log4Net\n* New default values base on users feedback\n* CTRL key to open menu",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2013-06-12T19:00:05.007-07:00",
+    "Files": [
+      {
+        "Id": "f90c87a6-9135-49d2-85b0-7f0e296cb649",
+        "FileName": "VrPlayerSetup.msi",
+        "Url": "./2/f90c87a6-9135-49d2-85b0-7f0e296cb649",
+        "Type": "Application",
+        "UploadDate": "2013-06-12T19:00:04.273-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "3",
+    "Name": "VR Player 0.2 ALPHA",
+    "DevelopmentStatus": "Alpha",
+    "Description": "* Oculus Rift head tracking\n* Keyboard shortcuts: SPACE = play/pause, F2 = reset position + orientation",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2013-04-30T18:48:49.653-07:00",
+    "Files": [
+      {
+        "Id": "d262d174-3ea6-4a02-9286-1e753d297b3e",
+        "FileName": "VrPlayerSetup.msi",
+        "Url": "./3/d262d174-3ea6-4a02-9286-1e753d297b3e",
+        "Type": "Application",
+        "UploadDate": "2013-04-30T18:48:49.293-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "4",
+    "Name": "VR Player 0.1.6.1 ALPHA",
+    "DevelopmentStatus": "Alpha",
+    "Description": "* Settings panel for plugins parameters\n* XMP support for auto loading settings\n* VRPN Client\n* User settings backup\n* Leap ready code\n* \"FPS\" controls with arrow keys\n* New samples (Spherical and cylindrical)\n* Customizable plane projection",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2013-04-26T20:29:12.987-07:00",
+    "Files": [
+      {
+        "Id": "6b882434-79f6-4312-82e1-a5e6426c5263",
+        "FileName": "VrPlayerSetup.msi",
+        "Url": "./4/6b882434-79f6-4312-82e1-a5e6426c5263",
+        "Type": "Application",
+        "UploadDate": "2013-04-26T20:29:12.267-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "5",
+    "Name": "VR Player 0.1.5 ALPHA",
+    "DevelopmentStatus": "Alpha",
+    "Description": "* Cylinder wrapper\n* Load file or url as application parameter\n* Register URI Scheme: \"vrplayer:\"\n* Link to [http://vrplayer.tv]\n* Changed menu layout and default plugins",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2013-02-20T16:54:56.1-08:00",
+    "Files": [
+      {
+        "Id": "8a7a31e3-4b71-4d7d-97b9-565365a873e2",
+        "FileName": "VrPlayerSetup.msi",
+        "Url": "./5/8a7a31e3-4b71-4d7d-97b9-565365a873e2",
+        "Type": "Application",
+        "UploadDate": "2013-02-20T16:53:13.27-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "6",
+    "Name": "VR Player 0.1.4.1 ALPHA",
+    "DevelopmentStatus": "Alpha",
+    "Description": "* 3D Positional audio!\n* Position tracking + calibration\n* Kinect tracker\n* URL file streaming support\n* Bug fixes",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2013-01-25T15:49:52.693-08:00",
+    "Files": [
+      {
+        "Id": "d63fd03f-f532-47b0-a17a-6ff51e399e0b",
+        "FileName": "VrPlayerSetup.msi",
+        "Url": "./6/d63fd03f-f532-47b0-a17a-6ff51e399e0b",
+        "Type": "Application",
+        "UploadDate": "2013-01-25T15:49:52.43-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "7",
+    "Name": "VR Player 0.1.3 ALPHA",
+    "DevelopmentStatus": "Alpha",
+    "Description": "* Major performances improvements and optimizations\n* Replaced mediaelement by WPF media kit\n* Support for Mono, Side by side and over/under head mounted displays\n* New Razer Hydra tracker\n* Sample menu\n* Loop button\n* Viewports positions are customizable\n* Fixed Windows 8 Compatibility issues\n* Debug menu with console, Tracker info and some configs for live editing",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2013-01-04T13:15:47.243-08:00",
+    "Files": [
+      {
+        "Id": "673a54c4-5d68-4446-8aa5-76763ee00652",
+        "FileName": "VrPlayerSetup.msi",
+        "Url": "./7/673a54c4-5d68-4446-8aa5-76763ee00652",
+        "Type": "Application",
+        "UploadDate": "2013-01-04T13:15:47.04-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "8",
+    "Name": "VR Player 0.1.2 ALPHA",
+    "DevelopmentStatus": "Alpha",
+    "Description": "-Dome wrapper\n-New plugin type: Effects for pixel shader applied directly to media\n-Depth map effect (over/uder and sbs)\n-Alpha key effect\n-Fisheye unwrapper effect (mono and stereo)",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2012-12-09T21:28:08.017-08:00",
+    "Files": [
+      {
+        "Id": "36dd35c2-89ab-4000-9c8d-f441ee776e85",
+        "FileName": "VrPlayerSetup.msi",
+        "Url": "./8/36dd35c2-89ab-4000-9c8d-f441ee776e85",
+        "Type": "Application",
+        "UploadDate": "2012-12-09T21:27:00.697-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "9",
+    "Name": "VR Player 0.1.1 ALPHA",
+    "DevelopmentStatus": "Alpha",
+    "Description": "Fix for Barrel Distortion and Cube Maps",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2012-12-09T21:22:36.273-08:00",
+    "Files": [
+      {
+        "Id": "e4cf3cf6-6bb1-43de-a0bc-4a78a7b9b335",
+        "FileName": "VrPlayerSetup.msi",
+        "Url": "./9/e4cf3cf6-6bb1-43de-a0bc-4a78a7b9b335",
+        "Type": "Application",
+        "UploadDate": "2012-12-05T09:36:52.257-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "10",
+    "Name": "VR Player 0.1 Alpha",
+    "DevelopmentStatus": "Alpha",
+    "Description": "This is an alpha release of VR Player.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2012-12-03T21:24:17.417-08:00",
+    "Files": [
+      {
+        "Id": "64f4f522-0438-421e-bb3d-b769053e5705",
+        "FileName": "VrPlayerSetup.msi",
+        "Url": "./10/64f4f522-0438-421e-bb3d-b769053e5705",
+        "Type": "Application",
+        "UploadDate": "2012-12-03T21:24:17.197-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "11",
+    "Name": "VR Player 0.5.1 ALPHA",
+    "DevelopmentStatus": "Alpha",
+    "Description": "* Drag and drop files support\n* Read presets from metadata support\n* Double click trigger full screen toggle \n* Mouse wheel scroll trigger FOV change\n* File projection stereo support\n* Fixed movement orientation\n* Fixed shortcuts conflicts\n* Changed sidecar naming to FILENAME.json\n* Changed default barrel distortion factor\n* Changed slider minimum values for chromatic aberration",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-01-27T03:17:47.96-08:00",
+    "Files": [
+      {
+        "Id": "6c2d4745-4e4c-4e29-8fa2-69618564882a",
+        "FileName": "VrPlayerSetup.msi",
+        "Url": "./11/6c2d4745-4e4c-4e29-8fa2-69618564882a",
+        "Type": "Application",
+        "UploadDate": "2014-01-27T03:17:47.04-08:00"
+      }
+    ]
+  }
+]

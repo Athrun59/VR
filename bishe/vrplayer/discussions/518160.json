@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1188463",
+    "ThreadId": "518160",
+    "Html": "This is a great program.\r<br />\n<br />\nI was wondering if I could do stereoscopic playout with vrPlayer for later use with Oculus but so far I managed only to see the mono video?\r<br />\n<br />\nThe source is a AVCHD video shot in 3D with Sony HDR-TD20VE.\r<br />\n<br />\nThanks in advance \r<br />\n<br />\nibiala<br />\n",
+    "PostedDate": "2014-01-21T12:57:18.193-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1202583",
+    "ThreadId": "518160",
+    "Html": "Hi ibiala,\r<br />\n<br />\nUnfortunately, the player does not support this format unless you convert the video to side by side or over/under format.\r<br />\nMaybe it's possible to do the conversion while playing with a direct show filter or a VLC command but I am not sure.\r<br />\nAnyhow, performances should be optimal if the video is already in a compatible format.\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2014-02-04T09:37:09.863-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

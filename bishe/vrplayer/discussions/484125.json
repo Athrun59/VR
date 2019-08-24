@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "1151127",
+    "ThreadId": "484125",
+    "Html": "I like the FOV controls.\r<br />\n<br />\nI would like to see aspect ratio controls that adjust onscreen with a number inside the player just like the FOV.\r<br />\n<br />\nI'd also like to see Horizontal and vertical offset and crop controls.\r<br />\nMaybe also tie the controls and interface to the mouse and middle mouse wheel for adjuments.<br />\n",
+    "PostedDate": "2014-01-08T15:54:03.21-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1161817",
+    "ThreadId": "484125",
+    "Html": "Hey maddabbo,\r<br />\n<br />\nI added these idea to the backlog.\r<br />\nModifying the aspect ratio will be a tough one because it's the parameter of a plugin (Plane Projection) and plugins don't support shortcuts yet.\r<br />\nThe offset is feasable and for the mouse shortcut, this will be taken into account when I'll do the UI redesign.\r<br />\n<br />\nThank you,\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2014-01-13T09:52:51.877-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1491773",
+    "ThreadId": "484125",
+    "Html": "is there anyway of adjusting the FOV on the android app using a controller or keyboard?\r<br />\n<br />\nThanks :)<br />\n",
+    "PostedDate": "2017-01-27T05:42:59.18-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "K-Lite codec installation solved the issue.",
+    "ClosedDate": "2013-04-19T17:19:12.013-07:00",
+    "CommentCount": 3,
+    "Custom": null,
+    "Description": "Everytime i try to open a .png file i get a black screen, but if i change the file extension to .jpg it works.",
+    "LastUpdatedDate": "2013-04-19T17:19:12.013-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "vrplayer",
+    "ReportedDate": "2013-04-17T02:31:40.683-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Cant open png with .png extension",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 2
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi IsoMacintosh,\n\nThank you for the bug report.\nThis seems to be a codec issue. I had the same problem before I installed [K-Lite codec pack](http://codecguide.com/download_kl.htm).\nTell me if this solution solve the problem.\n\nThank you,\n\n-Stephane\n\n\n",
+      "PostedDate": "2013-04-19T11:13:00.6-07:00",
+      "Id": 97495
+    },
+    {
+      "Message": "Installing k-lite solved the problem.",
+      "PostedDate": "2013-04-19T16:28:39.403-07:00",
+      "Id": 97530
+    },
+    {
+      "Message": "Excellent, thank you.",
+      "PostedDate": "2013-04-19T17:18:31.983-07:00",
+      "Id": 97533
+    }
+  ]
+}

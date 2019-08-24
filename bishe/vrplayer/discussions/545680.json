@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "1246562",
+    "ThreadId": "545680",
+    "Html": "Is there a way to put a video in DEPTH-MAP MONO.\r<br />\nIf not. Can you add DEPTH-MAP MONO\r<br />\nThere only seems to be over and under and side by side.<br />\n",
+    "PostedDate": "2014-05-17T20:23:00.197-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1259699",
+    "ThreadId": "545680",
+    "Html": "Hi demow12,\r<br />\n<br />\nThe depth map effect is used to generate a second image based on each pixel distance from the camera.\r<br />\nA mono depth map would simply take the original image and duplicate for each eye, ignoring the depthmap information..\r<br />\nIs that the behavior you are looking for?\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2014-06-25T07:30:52.347-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1259921",
+    "ThreadId": "545680",
+    "Html": "I'm not entirely sure what you mean and i not entirely sure on how to explain what im looking for.\r<br />\nI want to have the Depth map effect with a non-3d video file.\r<br />\nWhen i use the depth map effect with a none 3d video file. \r<br />\nIt gives the none 3d video a slight 3d effect.\r<br />\nBut the image is back to front and unorganized and unwatchable.<br />\n",
+    "PostedDate": "2014-06-25T22:51:14.827-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1259922",
+    "ThreadId": "545680",
+    "Html": "I'm not entirely sure what you mean and i not entirely sure on how to explain what im looking for.\r<br />\nI want to have the Depth map effect with a non-3d video file.\r<br />\nWhen i use the depth map effect with a none 3d video file.\r<br />\nIt gives the none 3d video a slight 3d effect.\r<br />\nBut the image is back to front and unorganized and unwatchable.<br />\n",
+    "PostedDate": "2014-06-25T22:51:36.963-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1260103",
+    "ThreadId": "545680",
+    "Html": "Can you send me a screenshot of your video file? This will help me to understand and I should be able to tell you if the format is supported or not.\r<br />\n<br />\nRegards,\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2014-06-26T09:32:46.893-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1260526",
+    "ThreadId": "545680",
+    "Html": "Its got nothing to do with the file format.\r<br />\nIm talking about putting a NON-3D video in the DEPTH MAP setting without it being all messed up like this---&gt;\r<br />\nDEPTH MAP ENABLED side by side and over and under (It screws up NON-3d videos and makes it unwatchable)\r<br />\n<img src=\"http://s9.postimg.org/vog7oouhr/151235.png\" alt=\"Image\" />\r<br />\nDEPTH MAP DISABLED\r<br />\n<img src=\"http://s30.postimg.org/pu9o3cx81/12414.png\" alt=\"Image\" />\r<br />\nI want to be able to use DEPTH MAP without the image being messing up like the first image i posted.<br />\n",
+    "PostedDate": "2014-06-27T10:11:59.507-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

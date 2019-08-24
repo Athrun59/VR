@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1231230",
+    "ThreadId": "541451",
+    "Html": "Hello, Is that possible to read with your software a video feed with a composite cable (yellow). In fact, I'd like to take the video feed with composite cable supposed to be for a video projector (it's from a device which use this kind of cables only, no hdmi...) and use it in an oculus rift. Is that possible and how ?? Thank you for your answer<br />\n",
+    "PostedDate": "2014-04-07T05:13:28.07-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1231435",
+    "ThreadId": "541451",
+    "Html": "Hello Francky75,\r<br />\n<br />\nIf it's possible with VLC, it should be with VR Player!\r<br />\nFor more infos, check out the &quot;How to use a camera or a TV capture device&quot; section <a href=\"http://vrplayer.codeplex.com/wikipage?title=Faq&amp;referringTitle=Documentation\" rel=\"nofollow\">in the FAQ page.</a>\r<br />\nLet me know if the documentation helped you or if I should update it.\r<br />\n<br />\nThank you and best regards,\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2014-04-07T10:24:26.907-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

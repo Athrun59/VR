@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "1277205",
+    "ThreadId": "553951",
+    "Html": "any reference for sourcecode of android vrplayer <br />\n",
+    "PostedDate": "2014-07-24T02:49:32.64-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1443018",
+    "ThreadId": "553951",
+    "Html": "I second that, is the android version open sourced ?<br />\n",
+    "PostedDate": "2015-09-03T08:54:42.027-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1444596",
+    "ThreadId": "553951",
+    "Html": "Yes this is required.\r<br />\nOr if possible please add custom URL schemes in it so that it can be used to open media from other applications too.<br />\n",
+    "PostedDate": "2015-09-16T02:52:27.997-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

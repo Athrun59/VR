@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1131413",
+    "ThreadId": "471825",
+    "Html": "I have seen that I can import 3D objects in the program. But as far as I know, the object is the same for each of eye. The problem is that texture coordinates are same so we lost the stereoscopic effect. Is there any way to import two different meshes, one for each eye? In fact, it's the same object but with different texture coordinates.\r<br />\n<br />\nThanks a lot.<br />\n",
+    "PostedDate": "2013-12-03T13:47:40.013-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1145112",
+    "ThreadId": "471825",
+    "Html": "Hi biomcanic,\r<br />\n<br />\nSorry for the delay, I missed your post :(\r<br />\n<br />\nYou are right about the file geometry:\r<br />\nThe texture mapping is not implemented for side by side and over/under mode.\r<br />\n<br />\nI will fix that as soon as I can\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2014-01-03T09:32:19.837-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

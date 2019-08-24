@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1253899",
+    "ThreadId": "547842",
+    "Html": "I was happily using VR Player 0.5.1 ALPHA all day yesterday until I browsed the sample files. As I loaded the spherical city shot the graphics became corrupt. Restarting, uninstalling and reinstalling could not fix it. Dropping back one version got me up and running again. Not sure what happened.\r<br />\n<br />\nphil<br />\n",
+    "PostedDate": "2014-06-06T14:47:19.257-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1259696",
+    "ThreadId": "547842",
+    "Html": "Hi captain3d,\r<br />\n<br />\nI must admit this is a weird one. \r<br />\nI will try to see what could have gone wrong and if it ever happens again, can you send me the error log in the windows event viewer?\r<br />\n<br />\nThank you,\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2014-06-25T07:26:02.95-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

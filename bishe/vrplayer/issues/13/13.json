@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 3,
+    "Custom": null,
+    "Description": "I've seen the issue here: https://vrplayer.codeplex.com/workitem/7\r\n\r\nI have VLC installed, and it still crashes. Direct show works with limited video files.\r\n\r\nI'm using 0.5.1 alpha on Windows 8.1 with a DK2 rift. Anything else you need to know, just ask.",
+    "LastUpdatedDate": "2014-10-30T01:20:07.537-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "vrplayer",
+    "ReportedDate": "2014-08-03T23:01:24.09-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Open file with VLC Crash",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 13
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I have pretty much the same problem. open with vlc crashes, but open with directshow only gives me a black screen. nothing ever plays. :/",
+      "PostedDate": "2014-10-09T07:22:54.737-07:00",
+      "Id": 161787
+    },
+    {
+      "Message": "I have the same problem with DK2 vrplayer on windows 8.1. The only files I can play are .avi or .wmv with DirectShow.\n",
+      "PostedDate": "2014-10-30T01:01:05.297-07:00",
+      "Id": 163597
+    },
+    {
+      "Message": "I fixed it by installing missing codecs IIRC. I don't remember which I installed, sorry.",
+      "PostedDate": "2014-10-30T01:20:07.537-07:00",
+      "Id": 163602
+    }
+  ]
+}

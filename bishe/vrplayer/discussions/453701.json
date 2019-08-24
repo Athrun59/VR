@@ -1,0 +1,66 @@
+[
+  {
+    "Id": "1081751",
+    "ThreadId": "453701",
+    "Html": "Of the infinite set of possible settings of parameterized projections and distortions I can't find one suitable for viewing YouTube's yt3d videos with my Rift.  I'm sure there is a point in the huge parameter space that's in some sense &quot;best&quot; but that space is far to large for me to successfully search it.  Can anyone suggest the right settings?<br />\n<br />\nPresets would go along way toward making this app usable.<br />\n<br />\nAlso is there any way to keep it from constantly hanging up with what seems to be data starvation?  I'm using the VLC mode.  I don't get this stop and go stuttering on YouTube, only with VR Player.<br />\n",
+    "PostedDate": "2013-08-17T19:44:39.973-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1081777",
+    "ThreadId": "453701",
+    "Html": "Hi DonGateley!\r<br />\n<br />\nThe preset feature is my top priority right now and should be available soon.\r<br />\n<br />\nFor youtube 3d videos, there is not a single preset that is working for all videos because it depends on the camera used for filming but here's some guide lines based on my preferences:\r<br />\n4:3 movies - Plane projection with ratio=1.33 (use arrows to move camera for different viewing positions)\r<br />\n16:9 movies - Plane projection with ratio=1.77\r<br />\nAction cameras (gopro/sony as-15...) - Dome projection with Hor.cov=0.5, Ver.cov=0.6\r<br />\n<br />\nFinally, vlc hanging up is not normal. I will take a look and see what I can do.\r<br />\n<br />\nThank you for your feedback.<br />\n\r<br />\n-Stephane<br />\n",
+    "PostedDate": "2013-08-17T23:18:00.693-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1081971",
+    "ThreadId": "453701",
+    "Html": "\r\n<div dir=\"ltr\">\r\n<div>\r\n<div>\r\n<div>\r\n<div>\r\n<div>\r\n<div>Stepahne, thank you for the reply. I had modified the options and parameters so far away from the defaults that I couldn't find my way back. What you suggest works pretty well. To get back to the defaults I found it necessary to completely uninstall VR\r\n Player and any traces of it I could find in /Users and then re-install it. Until you get presets working (which will greatly enhance the program) could you put in a reset to default for everything?<br>\r\n<br>\r\n</div>\r\nOn the discontinuous play problem, I found it to be very sensitive to whether I was going through my VPN or not. The program worked much better without it. Should &quot;Open Stream-&gt;with Direct Show&quot; work? It doesn't do anything for me.<br>\r\n<br>\r\n</div>\r\nInstead of relying on the mouse to reposition the Viewport each time could you add persistent parameters to the &quot;Display&quot; page for Horizontal Position and Vertical Position? I always have to adjust that with the mouse because the Viewport is too high in my\r\n Rift for comfort. A persistent repositioning would help a lot.<br>\r\n<br>\r\n</div>\r\nI'm also having difficulty getting the time position bar at the bottom to function well. Just clicking on a spot sometimes works and sometimes doesn't. Grabbing and sliding the right end would be familiar paradigm.<br>\r\n<br>\r\n</div>\r\nVR Player is a great tool and with some tweaking, probably with presets, it will be _the_ way to watch 3D YouTube videos. I find that some of the other projections are actually much more immersive than planar but I can't get the distortions right for them.<br>\r\n<br>\r\n</div>\r\nOh, a couple more things. I think that Media-&gt;Format should default to Side by Side. And when starting the program it would be really friendly to open it at the same place and at the same size it was when last closed.<br>\r\n<br>\r\n</div>\r\n<div>When presets are there and the performance problems worked out I'll be bragging this up for you wherever I can find YouTube yt3d videos as well as on Reddit, of course.<br>\r\n</div>\r\n<div><br>\r\n</div>\r\nThanks again, I just donated $25. Communication like this is worth a lot. :-)<br>\r\n</div>\r\n<div><br>\r\n<br>\r\n<div></div>\r\n</div>\r\n",
+    "PostedDate": "2013-08-18T21:29:25.5-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1082007",
+    "ThreadId": "453701",
+    "Html": "\r\n<div dir=\"ltr\">The stop/go problem was the codecs. I noticed with Task Manager that when VR Player was running the machine was spending 25% of the CPU resources in the kernel. That could only be a codec. I had installed K-Lite as per your suggestion and chose\r\n the LAV option for everything thinking it would be the latest and greatest set. Wrong. With Code Tweak Tool I went to Win7DSFilterTweaker-&gt;Preferred decoders and did a reset which put everything back to Microsoft Codecs. Now the performance is just fine. Not\r\n a hitch.<br>\r\n</div>\r\n<div><br>\r\n<br>\r\n<div></div>\r\n</div>\r\n",
+    "PostedDate": "2013-08-19T00:07:35.37-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1082387",
+    "ThreadId": "453701",
+    "Html": "Another question for you; hope I'm not a bother.  I find that playing some YouTube yt3d videos with VR Player left and right are swapped.  I can swap them when playing them in YouTube but not when I'm playing one with VR Player Open Stream.  It's pretty obvious watching one when left and right need to be swapped.  Can you effect that as a Media option?  Or is there a way to specify a YouTube URL such that stereo videos will be streamed with left-right reversed?  I did some Google searching on the latter but couldn't find anything.<br />\n",
+    "PostedDate": "2013-08-19T15:22:58.337-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1082978",
+    "ThreadId": "453701",
+    "Html": "Hi DonGateley,\r<br />\n<br />\nFirst of all, thank you for your donation! \r<br />\nYour are not bothering me at all. I am super happy to get constructive feedback.\r<br />\n<br />\nThe presets feature implementation is going well and I will also add a reset button. \r<br />\nIn the mean while, to reset default settings, you can delete the &quot;user.config&quot; file located in: \r<br />\n&quot;C:\\Users\\&lt;USER&gt;\\AppData\\Local\\VrPlayer\\VrPlayer.vshost.exe_Url_&lt;KEY&gt;\\0.4.1.0\\user.config&quot;\r<br />\n<br />\nI am glad that you found the source of discontinuous play problem because I find codec problems extreamly hard to troubleshoot!\r<br />\n<br />\nAbout the streaming, Direct show rely on installed codec. It does not support youtube but you should be able to open video files from an url.\r<br />\nIf it's not working at all, please let me know.\r<br />\n<br />\nThe persistent camera position (and orientation) feature is in my backlog. \r<br />\nEventually, I would like to be able to save multiple cameras with the following settings: FOV, position, orientation so that it would be possible to switch between cameras.\r<br />\n<br />\nThe time bar is giving me a hard time and cause a lot of strange behaviors depending of media source. \r<br />\nSeeking with the mouse has been desactivated because of performances issues but I will try to bring back this feature later, when I will work on fixing the bar.\r<br />\n<br />\nThe reason I was not saving the stereo format (side by side) is necause it is a property of the media playing, not the player.\r<br />\nMy thought was this information should be saved in the media file (meta data or sidecar preset file) but with live streaming, embeding such data is not possible so I will probably change that.\r<br />\n<br />\nFinally, for swapping left and right you can use the crossed-eye layout nut you will have to change the horizontal offset from negative to positive or vice-versa.\r<br />\nThis is a problem that I will fixed in a future release.\r<br />\n<br />\nBest regards.\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2013-08-21T00:06:50.033-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1083325",
+    "ThreadId": "453701",
+    "Html": "\r\n<div dir=\"ltr\">\r\n<div>\r\n<div>\r\n<div>\r\n<div>\r\n<div>\r\n<div>\r\n<div>Thanks, Stephane.<br>\r\n<br>\r\n</div>\r\nI added a shortcut to the user.config directory to the VR Player entry of my Start Menu. Thanks for accepting the suggestion for a reset button.<br>\r\n<br>\r\n</div>\r\nI still seem to be having stop/start problems but not nearly as bad as with the set of codecs I was originally using. Maybe not even worse than YouTube in a browser. Not sure about that. When I installed the K-Lite codecs an option was whether or not to use\r\n graphics hardware acceleration. They recommended for a system like mine (2.3 gHz i7) that it not be used but what I see in CPU activity when playing says that might be a bad choice. I'm going to re-install the codecs and specify hardware acceleration to see\r\n what difference, if any, that makes.<br>\r\n<br>\r\n</div>\r\nCould you give me an example of a URL that should work with Direct Show?<br>\r\n<br>\r\n</div>\r\nI like your idea for camera presets.<br>\r\n<br>\r\n</div>\r\nI was looking in the wrong place for the cross-eyed option. I was looking at Media-&gt;Format rather than Device-&gt;Layout. A bit confusing, that, but it solved the problem once I found it.<br>\r\n<br>\r\n</div>\r\nI've been having a lot of fun looking at YouTube's yt3d videos. Mostly junk but a few good ones. The planar projection is not optimal, however. I find that dome projection with settings as per the user.config file I've attached is more immersive but there seems\r\n to be a rendering problem. Bad things are happening at the pixel level that I don't understand. The video that I used to find those settings is:<br>\r\n<br>\r\n<a href=\"http://www.youtube.com/watch?v=jJjJeYfAwQw\">http://www.youtube.com/watch?v=jJjJeYfAwQw</a><br>\r\n<br>\r\n</div>\r\n<div>I use VR Player in full screen on my 1366x768 monitor which is cloned with the Oculus Rift.<br>\r\n</div>\r\n<div><br>\r\n</div>\r\nWhen I play videos on YouTube I can choose a resolution. This one goes to 1080p. When you play them are you getting them at the highest resolution or do you have to play from the browser to get that?<br>\r\n<div>\r\n<div>\r\n<div>\r\n<div>\r\n<div>\r\n<div>\r\n<div>\r\n<div>\r\n<div>\r\n<div></div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div><br>\r\n<br>\r\n<div></div>\r\n</div>\r\n",
+    "PostedDate": "2013-08-21T14:27:54.93-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1084736",
+    "ThreadId": "453701",
+    "Html": "Hello DonGateley,<br />\n<br />\nDid you get better performances with hardware acceleration?<br />\n<br />\nHere's a random example of a avi file that I can run by using &quot;open stream-&gt;with direct show&quot;:<br />\n<a href=\"http://www.mysticfractal.com/video/snowflake.avi\" rel=\"nofollow\">http://www.mysticfractal.com/video/snowflake.avi</a><br />\n<br />\nI will test the video that has pixel problem but I can't see your attachment for the presets.<br />\n<br />\nFor youtube videos resolution, I saw that people use an additional parameter in the url's query string: &quot;&amp;fmt=18&quot; but I did not try this yet.<br />\n<br />\nBest regards,<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2013-08-25T15:44:30.857-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

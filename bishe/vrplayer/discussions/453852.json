@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "1082294",
+    "ThreadId": "453852",
+    "Html": "Greetings, just came across VR Player, and it looks great!  Do have a question though.  What is the best way to play 180 degree circular fisheye videos?  I keep getting a strange pinch / warp at the front and back of my videos.<br />\n\r<br />\nBase fisheye image\r<br />\n<a href=\"http://www.mattmascheri.com/images/fisheye.jpg\" rel=\"nofollow\">fisheye image</a>\r<br />\n<br />\nI used the video from this app - <a href=\"http://www.garagegames.com/community/blogs/view/22255\" rel=\"nofollow\">http://www.garagegames.com/community/blogs/view/22255</a>\r<br />\n<br />\nIn the native app the fisheye video looks great, but if played the video alone in VR Player I get a strange pinching.  I have VR Player set to Dome Projection\r<br />\n<br />\nThis is with Effects Unwrap Fisheye\r<br />\n<a href=\"http://www.mattmascheri.com/images/pinch.jpg\" rel=\"nofollow\">warping / pinching at the &quot;spring line&quot; at the front and back of image</a>\r<br />\n<br />\nThis is with Effects None\r<br />\n<a href=\"http://www.mattmascheri.com/images/pinch2.jpg\" rel=\"nofollow\">TEXT</a>\r<br />\n<br />\nAny help would be greatly appreciated!\r<br />\n<br />\nThanks \r<br />\n<br />\nMatt<br />\n",
+    "PostedDate": "2013-08-19T11:07:41.02-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1082982",
+    "ThreadId": "453852",
+    "Html": "Hi Matt,\r<br />\n<br />\nI am sorry but currently, circular fisheye format is not supported.\r<br />\nI will have to create a new type of projection or modify the dome projection to support multiple UV mapping configurations.\r<br />\nAnyhow, I added this feature to my backlog and I will notify you when it will be implemented.\r<br />\n<br />\nRegards,\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2013-08-21T00:18:52.457-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1083111",
+    "ThreadId": "453852",
+    "Html": "Thanks for the prompt reply Stephane!\r<br />\n<br />\nThis is a feature that will be widely used by planetarium / fulldome producers.\r<br />\n<br />\nI would gladly pay for this feature to be bumped up on your list, as it is the format that I work in most of the time.\r<br />\n<br />\nThanks for making such a valuable tool.\r<br />\n<br />\nCheers\r<br />\n<br />\nMatt<br />\n",
+    "PostedDate": "2013-08-21T07:03:06.24-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1083941",
+    "ThreadId": "453852",
+    "Html": "Hi mattmascheri,\r<br />\n<br />\nI will contact you in private massage to get the specs of the format and I'll see what I can do!\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2013-08-22T22:02:39.82-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1112581",
+    "ThreadId": "453852",
+    "Html": "How has the progress here come along? How can I help development? I'll try building from source later this week and start tweaking the code myself if nothing else. I'm in the same boat as Matt.\r<br />\n<br />\n<a href=\"http://imgur.com/a/xfUSI\" rel=\"nofollow\">I also made a gallery which shows how different settings in VR Player look. Also I include a sample image you can download and use for testing purposes.</a>\r<br />\n<br />\nI just want to say; well done. Even with these issues we're seeing, this is still one of the coolest experiences I've had with the Oculus Rift. We already have a huge library of productions that used to be limited to a very small scale environment, that VR Player will be opening up to a larger audience. If the VR Player community keeps growing and generating content; this will be huge! Very cool Stephane.\r<br />\n<br />\nAlso I would be happy to throw in some beer money to help this work its way up your TODO list, just send me a message with details.<br />\n",
+    "PostedDate": "2013-10-26T19:28:18.8-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1112856",
+    "ThreadId": "453852",
+    "Html": "Hi RogueVogon,\r<br />\n<br />\nThank you very much for the feedback. I created a new plugin type called &quot;Full Dome&quot; for these type of projection. It will be available in the next release.\r<br />\nIn the meanwhile, you can send me your email in private message for a preview version. Also, if you already have a lot of full dome content, please feel free to share video/samples to <a href=\"http://www.vrplayer.tv\" rel=\"nofollow\">vrplayer.tv</a>!\r<br />\n<br />\nBest regards,,\r<br />\n<br />\n-Stephane<br />\n",
+    "PostedDate": "2013-10-27T21:08:42.65-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]
