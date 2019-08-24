@@ -1,0 +1,52 @@
+TY  - GEN
+TI  - Bitrate Efficient 3DoF+ 360 Video View Synthesis for Immersive VR Video Streaming
+ID  - Accession Number: edseee.8539414
+PY  - 2018
+Y1  - 2018///
+M3  - Conference
+JO  - 2018 International Conference on Information and Communication Technology Convergence (ICTC), Information and Communication Technology Convergence (ICTC), 2018 International Conference on
+SP  - 581
+PB  - IEEE
+SN  - 978-1-5386-5041-7
+SN  - 978-1-5386-5040-0
+AB  - Recently, as the demand for Virtual Reality(VR) is increasing, it is not hard to experience immersive contents with VR. However, a tremendous amount of calculation and bandwidth are required when processing 360 videos. Moreover, to enjoy stereoscopic 360 contents, additional information such as the depth of the video must be provided. Therefore, in this paper, it proposes the efficient method of streaming high quality 360 videos. To reduce the bandwidth when streaming and synthesizing the 3DoF+ 360 video which supports limited movements of the user, the proper down-sampling ratio and quantization parameter are offered with the graph between bitrate and Peak Signal-to-Noise Ratio(PSNR). To encode and decode the 360 video, High-Efficiency Video Coding(HEVC) is used. And view synthesizer produces the video of intermediate view to provide the user with an immersive experience.
+KW  - Bioengineering
+KW  - Communication, Networking and Broadcast Technologies
+KW  - Components, Circuits, Devices and Systems
+KW  - Computing and Processing
+KW  - Fields, Waves and Electromagnetics
+KW  - Power, Energy and Industry Applications
+KW  - Signal Processing and Analysis
+KW  - Transportation
+KW  - Cameras
+KW  - Streaming media
+KW  - Bit rate
+KW  - Transform coding
+KW  - Encoding
+KW  - Video coding
+KW  - Software
+KW  - VR
+KW  - 3DoF+
+KW  - HEVC
+KW  - view synthesis
+KW  - VSRS
+KW  - RVS
+KW  - FTV
+KW  - WS-PSNR
+KW  - Multi-view video coding
+DO  - 10.1109/ICTC.2018.8539414
+N1  - Item Citation: 2018 International Conference on Information and Communication Technology Convergence (ICTC) Information and Communication Technology Convergence (ICTC), 2018 International Conference on. :581-586 Oct, 2018
+N1  - Related Material: 2018 International Conference on Information and Communication Technology Convergence (ICTC)
+N1  - Contents: Conference Acronym: ICTC
+N1  - Conference Acronym: ICTC
+N1  - Document Subtype: IEEE Conference
+N1  - Conference Location: Jeju Island, Korea (South), Korea (South)
+N1  - Date of Current Version: 2018
+N1  - Conference Start Date: 17 Oct. 2018
+N1  - Conference End Date: 19 Oct. 2018
+N1  - AMSID: 8539414
+N1  - Accession Number: edseee.8539414; Contributors: Jeong, JongBeom, Jang, Dongmin, Son, Jang-Woo, Ryu, Eun-Seok; Publication Type: Conference Paper; Source: 2018 International Conference on Information and Communication Technology Convergence (ICTC), Information and Communication Technology Convergence (ICTC), 2018 International Conference on; Language: English; Publication Date: 20181001; Rights: Copyright 2018, IEEE; Imprint: IEEE
+UR  - http://search.ebscohost.com/login.aspx?direct=true&db=edseee&AN=edseee.8539414&lang=zh-cn&site=eds-live
+DP  - EBSCOhost
+DB  - edseee
+ER  - 
